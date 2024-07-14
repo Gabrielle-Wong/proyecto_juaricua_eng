@@ -88,8 +88,8 @@ var config = {
 
 
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -147,8 +147,8 @@ var config = {
             
 
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -189,8 +189,8 @@ var config = {
             description: 'Since 2022, there has been a noted increase in AirBnB landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
             
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -246,8 +246,8 @@ var config = {
             // description: 'Since 2022, there has been a noted increase in AirBnB landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -304,8 +304,8 @@ var config = {
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
 
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -359,8 +359,8 @@ var config = {
             description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -420,8 +420,8 @@ var config = {
             description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -481,8 +481,8 @@ var config = {
             description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -542,8 +542,8 @@ var config = {
             description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -599,8 +599,8 @@ var config = {
             description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -665,8 +665,8 @@ var config = {
             description: 'Coloured by host (purple = Mr W; orange = Virtual Homes; pink = all the others)',
             legend: '<em> This map is interactive! You can zoom and pan. The address of the building, based on evidence from the listing and/or website of each host, will be shown after zooming in. </em>',
             location: {
-                center: [-99.18098, 19.43603],
-                zoom: 12,
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
