@@ -121,11 +121,7 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                },
+                
                 {
                     layer: 'oct23',
                     opacity: 0,
@@ -230,11 +226,7 @@ var config = {
                     opacity: 0,
                     duration: 500
                 },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
+                
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 0
@@ -293,11 +285,7 @@ var config = {
                     opacity: 0, 
                     duration: 500
                 },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
+               
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 0
@@ -351,11 +339,6 @@ var config = {
             onChapterExit: [
                 {
                     layer: 'oct23Hosts',
-                    opacity: 0,
-                    duration: 500
-                },
-                {
-                    layer: 'cuauhtemocLine',
                     opacity: 0,
                     duration: 500
                 }
@@ -412,11 +395,7 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                },
+                
                 {
                     layer: 'dec19megahosts',
                     opacity: 0, 
@@ -477,11 +456,7 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                },
+               
                 {
                     layer: 'dec20megahosts',
                     opacity: 0, 
@@ -542,11 +517,7 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                },
+               
                 {
                     layer: 'dec21megahosts',
                     opacity: 0, 
@@ -587,11 +558,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 1,
-                    duration: 500
-                },
+                
 
                 {
                     layer: 'dec22megahosts',
@@ -607,11 +574,7 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                },
+                
                 {
                     layer: 'dec22megahosts',
                     opacity: 0, 
