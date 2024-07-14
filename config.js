@@ -126,6 +126,11 @@ var config = {
                     layer: 'oct23',
                     opacity: 0,
                     duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
                 }
                 // {
                 //     layer: 'layer-name',
@@ -241,8 +246,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Cuauhtémoc's Airbnb Units in October 2019",
-            // image: './images/tulum_beach.jpg',
-            description: "Shown based on number of units owned by the unit's host.",
+            // description: "Shown based on number of units owned by the unit's host.",
+            image: './images/number_of_units_owned_legend.png',
             // description: 'Since 2022, there has been a noted increase in AirBnB landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
@@ -299,8 +304,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Cuauhtémoc's Airbnb Units in October 2023",
-            // image: './images/tulum_beach.jpg',
-            description: "Shown based on number of units owned by the unit's host.",
+            image: './images/number_of_units_owned_legend.png',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
 
             location: {
@@ -355,8 +359,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2019',
-            // image: './images/tulum_beach.jpg',
-            description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
+            image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
                 center: [-99.17401, 19.43337],
@@ -416,8 +419,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2020',
-            // image: './images/tulum_beach.jpg',
-            description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
+            image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
                 center: [-99.17401, 19.43337],
@@ -477,8 +479,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2021',
-            // image: './images/tulum_beach.jpg',
-            description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
+            image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
                 center: [-99.17401, 19.43337],
@@ -538,8 +539,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2022',
-            // image: './images/tulum_beach.jpg',
-            description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
+            image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
                 center: [-99.17401, 19.43337],
@@ -595,8 +595,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2023',
-            // image: './images/tulum_beach.jpg',
-            description: 'Based on Airbnb hosts (including clusters of hosts working together) who owned more than 100+ units in Mexico City in December 2023.',
+            image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
                 center: [-99.17401, 19.43337],
@@ -661,8 +660,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'The Buildings of Airbnb',
-            // image: './images/tulum_beach.jpg',
-            description: 'Coloured by host (purple = Mr W; orange = Virtual Homes; pink = all the others)',
+            image: "./images/building_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. The address of the building, based on evidence from the listing and/or website of each host, will be shown after zooming in. </em>',
             location: {
                 center: [-99.17401, 19.43337],
@@ -943,19 +941,21 @@ var config = {
         },
 
         {
-            // 9:  Nápoles 35 
-            id: 'napoles35',
+            // 9:  Nápoles 35 and Londres 49 
+            id: 'napoles35_londres49',
             alignment: 'left',
             hidden: false,
-            title: 'Nápoles 35',
+            title: 'Londres 49 & Nápoles 35',
+            // imageBeforeDescription: "./images/juarez_skyline.png",
             image: './images/pandora.png',
+            imageCaption: 'Londres 49 & Nápoles 35 after renovation',
             description: 'At another building in Colonia Juarez, Nápoles 35, X families were evicted en masse in December 2020. [add more info from the videos of evictions from this building] This building was renamed Pandora, and opened as X AirBnb units in October 2023. ',
             
             location: {
-                center: [-99.16082, 19.42732],
-                zoom: 18.75,
-                pitch: 46,
-                bearing: -10
+                center: [-99.16067, 19.42710],
+                zoom: 18.5,
+                pitch: 61.25,
+                bearing: -90.50
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -1122,6 +1122,55 @@ var config = {
                 // }
             ]
             
+        },
+
+        {
+            // Test Chapter
+            id: 'testChapter',
+            alignment: 'left',
+            hidden: false,
+            title: 'This is a title in Mapbox.',
+            imageBeforeDescription: './images/test_image_before.png',
+            imageBDCaption: 'Image caption (before description)',
+            description: "This is general body text. <br> <br> <strong> Many formatting options are possible, </strong> but the description text has to be all in one block (unless a new variable is made, which is possible but can get messy).",
+            video: './media/test_video.mp4',
+            videoCaption: "Video caption",
+            audio: './media/test_audio.mp3',
+            audioCaption: "Audio caption",
+            image: './images/test_image_after.png',
+            imageCaption: 'Second image caption',
+
+           
+            location: {
+                center: [-99.12574, 19.39614],
+                zoom: 10.00,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            legend: 'This is legend text!',
+            mapAnimation: 'easeTo',
+            mapInteractive: true,
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
         },
 
         {

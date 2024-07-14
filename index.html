@@ -409,11 +409,7 @@
                 chapter.appendChild(title);
             }
 
-            if (record.image) {
-                var image = new Image();
-                image.src = record.image;
-                chapter.appendChild(image);
-            }
+            
 
             // add image caption to chapters if found in config
             if (record.caption) {
@@ -421,6 +417,18 @@
                 caption.setAttribute("class", "caption");
                 caption.innerHTML = `<em>${record.caption}</em>`;
                 chapter.appendChild(caption);
+            }
+
+            if (record.imageBeforeDescription) {
+                var imageBeforeDescription = new Image();
+                imageBeforeDescription.src = record.imageBeforeDescription;
+                chapter.appendChild(imageBeforeDescription);
+            }
+
+            if (record.imageBDCaption) {
+                imageBDCaption = document.createElement('p');
+                imageBDCaption.innerHTML = '<em>' + record.imageBDCaption + '</em>';
+                chapter.appendChild(imageBDCaption);
             }
 
             if (record.description) {
@@ -449,6 +457,46 @@
                     returnTop.innerHTML = '<a href="#header">Back to top</a>';
                     chapter.appendChild(returnTop);
                 }
+            }
+
+            if (record.image) {
+                var image = new Image();
+                image.src = record.image;
+                chapter.appendChild(image);
+            }
+
+            if (record.imageCaption) {
+                imageCaption = document.createElement('p');
+                imageCaption.innerHTML = '<em>' + record.imageCaption + '</em>';
+                chapter.appendChild(imageCaption);
+            }
+
+
+            if (record.video) {
+                var video = document.createElement('video');
+                video.src = record.video;
+                video.controls = true; // Add controls for play/pause etc.
+                video.style.width = '100%'; // Adjust width as needed
+                chapter.appendChild(video);
+            }
+
+            if (record.videoCaption) {
+                videoCaption = document.createElement('p');
+                videoCaption.innerHTML = '<em>' + record.videoCaption + '</em>';
+                chapter.appendChild(videoCaption);
+            }
+
+            if (record.audio) {
+                var audio = document.createElement('audio');
+                audio.src = record.audio;
+                audio.controls = true; // Add controls for play/pause etc.
+                chapter.appendChild(audio);
+            }
+
+            if (record.audioCaption) {
+                audioCaption = document.createElement('p');
+                audioCaption.innerHTML = '<em>' + record.audioCaption + '</em>';
+                chapter.appendChild(audioCaption);
             }
 
             // add legend to chapters if found in config
