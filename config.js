@@ -726,6 +726,79 @@ var config = {
             
         },
 
+        {
+            // 5: Airbnb Buildings
+            id: 'airbnb_buildings2024',
+            alignment: 'left',
+            hidden: false,
+            title: 'The Buildings of Airbnb (2024 edition)',
+            image: "./images/building_legend.png",
+            legend: '<em> This map is interactive! You can zoom and pan. The address of the building, based on evidence from the listing and/or website of each host, will be shown after zooming in. </em>',
+            location: {
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            mapInteractive: true, 
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 1,
+                    duration: 500
+                },
+
+                {
+                    layer: 'airbnbBuildings2024',
+                    opacity: 0.75, 
+                    duration: 500
+                },
+
+                {
+                    layer: 'airbnbBuildings2024HostLabel',
+                    opacity: 1, 
+                    duration: 500
+                }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'airbnbBuildings2024',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'airbnbBuildings2024HostLabel',
+                    opacity: 0, 
+                    duration: 500
+                }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+            
+        },
+
+       
 
         {
             // 6: Context for Juárez 
