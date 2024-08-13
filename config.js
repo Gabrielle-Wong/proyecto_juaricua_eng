@@ -764,7 +764,7 @@ var config = {
                 },
 
                 {
-                    layer: 'airbnbBuildings2024HostLabel',
+                    layer: 'airbnbBuildingsHostLabel2024',
                     opacity: 1, 
                     duration: 500
                 }
@@ -786,7 +786,7 @@ var config = {
                     duration: 500
                 },
                 {
-                    layer: 'airbnbBuildings2024HostLabel',
+                    layer: 'airbnbBuildingsHostLabel2024',
                     opacity: 0, 
                     duration: 500
                 }
