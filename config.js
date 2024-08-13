@@ -728,7 +728,7 @@ var config = {
 
         {
             // 5: Airbnb Buildings
-            id: 'airbnb_buildings2024',
+            id: 'airbnb_buildings_2024edition',
             alignment: 'left',
             hidden: false,
             title: 'The Buildings of Airbnb (2024 edition)',
@@ -758,7 +758,7 @@ var config = {
                 },
 
                 {
-                    layer: 'airbnbBuildings2024',
+                    layer: 'airbnbBuildingsHost2024',
                     opacity: 0.75, 
                     duration: 500
                 },
@@ -781,7 +781,7 @@ var config = {
                     duration: 500
                 },
                 {
-                    layer: 'airbnbBuildings2024',
+                    layer: 'airbnbBuildingsHost2024',
                     opacity: 0, 
                     duration: 500
                 },
