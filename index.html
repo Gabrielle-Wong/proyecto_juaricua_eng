@@ -186,6 +186,7 @@
             display: none;
         }
 
+        
         .legend {
             position: fixed;
             right: 30px;
@@ -295,6 +296,11 @@
     <div id="map"></div>
     <div id="mapInset"></div>
     <div id="story"></div>
+    <div id="slider-container" style="position: relative; width: 100%; max-width: 600px; height: auto; overflow: hidden;">
+        <img src="" alt="Before" class="image-before" style="position: absolute; top: 0; left: 0; width: 100%; height: auto;">
+        <img src="" alt="After" class="image-after" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; clip: rect(0, 100%, 100%, 50%);">
+        <div id="slider" style="position: absolute; top: 0; left: 50%; width: 10px; height: 100%; background: #2196F3; cursor: ew-resize;"></div>
+    </div>
     <script src="./config.js"></script>
     <script src="./sources.js"></script>
     <script>
@@ -411,8 +417,6 @@
                 chapter.appendChild(title);
             }
 
-            
-
             // add image caption to chapters if found in config
             if (record.caption) {
                 caption = document.createElement('p');
@@ -420,6 +424,13 @@
                 caption.innerHTML = `<em>${record.caption}</em>`;
                 chapter.appendChild(caption);
             }
+
+            if (record.gifBefore) {
+                var gifBefore = new Image();
+                gifBefore.src = record.gifBefore;
+                chapter.appendChild(gifBefore);
+            }
+
 
             if (record.imageBeforeDescription) {
                 var imageBeforeDescription = new Image();
@@ -461,6 +472,12 @@
                 }
             }
 
+            if (record.gifAfter) {
+                var gifAfter = new Image();
+                gifAfter.src = record.gifAfter;
+                chapter.appendChild(gifAfter);
+            }
+
             if (record.image) {
                 var image = new Image();
                 image.src = record.image;
@@ -500,6 +517,9 @@
                 audioCaption.innerHTML = '<em>' + record.audioCaption + '</em>';
                 chapter.appendChild(audioCaption);
             }
+
+
+
 
             // add legend to chapters if found in config
             if (record.legend) {

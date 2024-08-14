@@ -1203,6 +1203,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'This is a title in Mapbox.',
+            gifBefore: './images/this_is_fine.gif',
             imageBeforeDescription: './images/test_image_before.png',
             imageBDCaption: 'Image caption (before description)',
             description: "This is general body text. <br> <br> <strong> Many formatting options are possible, </strong> but the description text has to be all in one block (unless a new variable is made, which is possible but can get messy).",
