@@ -395,6 +395,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2019',
+            description: 'A few mega-hosts have emerged over the past five years that have come to manage almost 2000 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. TODO: add text to explain the map (if we still choose to include it)',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
@@ -455,7 +456,7 @@ var config = {
             id: 'hundred_plus_landlords_dec2023',
             alignment: 'left',
             hidden: false,
-            // title: 'Mega-Landlords: December 2023',
+            title: 'Mega-Landlords: December 2023',
             description: 'A few mega-hosts have emerged over the past five years that have come to manage almost 2000 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. TODO: add text to explain the map (if we still choose to include it)',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
