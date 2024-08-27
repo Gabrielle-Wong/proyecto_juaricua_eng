@@ -17,7 +17,7 @@ var config = {
    // Story Details
     title: 'add a title later',
     // subtitle: 'subtitle, if desired',
-    byline: 'Proyecto Juaricua: A Housing Justice Lab <br> <br> TEMPORARY: this site was last updated on August 27, 2024 ',
+    byline: 'Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on August 27, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -119,7 +119,7 @@ var config = {
             title: 'AirBnB Listings in Alcaldía Cuauhtémoc',
             
             description: 'Around the time we see this uptake in interest from “digital nomads” seeking to work remotely in Mexico City, we also observe a dramatic increase in the number of short term rentals, particularly AirBnBs, listed in the central core of Mexico City. While the Roma and Condesa neighborhoods had already been populated with a multitude of AirBnB units prior to the pandemic, the number of AirBnB units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, has increased by 69% between 2019 and 2024. ',
-            legend: '<em>Airbnb units in Cuauhtémoc, October 2023. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2023. <br> <br> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em>AirBnB units in Cuauhtémoc, October 2023. Each pink dot represents one AirBnB unit. Data from Inside Airbnb, 2023. <br> <br> This map is interactive! You can zoom and pan. </em>',
             // image: './images/airbnb_points.png',
 
 
