@@ -17,7 +17,7 @@ var config = {
    // Story Details
     title: 'add a title later',
     // subtitle: 'subtitle, if desired',
-    byline: 'Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on August 27, 2024 ',
+    byline: 'Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 4, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -822,8 +822,9 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Dinamarca 77',
-            // image: './images/tulum_beach.jpg',
-            description: 'For the residents of one such building in Colonia Juárez , Dinamarca 77, 12 families are estimated to have been forcefully evicted in April 2018. [add more info from the videos of evictions from this building] This building opened as X AirBnb units on X date which are owned by Mr.W, the mega-host that owns the most units in Mexico City. ',
+            image: './images/dinamarca.jpg',
+            imageCaption: 'Dinamarca 77 in 2024', 
+            description: 'For the residents of one such building in Colonia Juárez , Dinamarca 77, 12 families are estimated to have been forcefully evicted in April 2018. [add more info from the videos of evictions from this building] This building opened as approximately 11 AirBnb units in October 2023 which are owned by Mr.W, the mega-host that owns the most units in Mexico City. ',
             
             location: {
                 center: [-99.15789, 19.42543],
@@ -885,10 +886,10 @@ var config = {
             hidden: false,
             title: 'Londres 49 & Nápoles 35',
             // imageBeforeDescription: "./images/juarez_skyline.png",
-            image: './images/pandora.png',
+            imageBeforeDescription: '/images/pandora_streetscape.jpg',
+            image: './images/pandora.jpg',
             imageCaption: 'Londres 49 & Nápoles 35 after renovation',
-            description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were converted into a X unit all AirBnB building in October 2023.  It is estimated that 18 families were forcefully evicted from the buildings in December 2020. As tenants described, “XXX” [add more info from the videos of evictions from this building] This Virtual Homes-managed building, renamed Pandora, has dramatically altered the landscape of the surrounding neighborhood.',
-            
+            description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were converted into over 30 units of AirBnB buildings in November 2023.  It is estimated that 18 families were forcefully evicted from the buildings in December 2020. As tenants described, “XXX” [add more info from the videos of evictions from this building] This Virtual Homes-managed building, renamed Pandora, has dramatically altered the landscape of the surrounding neighborhood.',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
