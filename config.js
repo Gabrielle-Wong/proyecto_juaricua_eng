@@ -17,7 +17,7 @@ var config = {
    // Story Details
     title: 'add a title later',
     // subtitle: 'subtitle, if desired',
-    byline: 'Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 4, 2024 ',
+    byline: 'Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 8, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
