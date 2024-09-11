@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 9, 2024 ',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 11, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -33,7 +33,8 @@ var config = {
             // image: './images/tulum_beach.jpg',
             
             description: 'Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City for extended periods of time. ',
-            
+            image: './images/intro_image_v2.png',
+            imageCaption: "Left: Your tourism drives out families. <br> Right: It is said that a long, long time ago (before Airbnb), there was life in this building.",
             location: {
                 center: [-99.40935, 19.35071],
                 zoom: 9.25,
@@ -77,7 +78,8 @@ var config = {
             // image: './images/tulum_beach.jpg',
             
             description: 'These predominantly North American workers, or “digital nomads”, began to turn their eye to Mexico City around 2021, as an abundance of influencer content on moving to Mexico City started blowing up online around 2022. These “digital nomad influencers” have no doubt played a role in this drawing the public’s attention to Mexico City, citing the city’s “vibrant culture, affordable cost of living, and a variety of coworking spaces” as major draws. ',
-            
+            image: './images/digital_nomads.png',
+            imageCaption: 'Influencer content on YouTube, Instagram, TikTok, and other social platforms portray Mexico City as a desirable and affordable location for "digital nomads".', 
             location: {
                 center: [-99.40935, 19.35071],
                 zoom: 9.25,
