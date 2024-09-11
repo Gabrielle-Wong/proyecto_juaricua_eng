@@ -887,7 +887,7 @@ var config = {
             hidden: false,
             title: 'Londres 49 & Nápoles 35',
             // imageBeforeDescription: "./images/juarez_skyline.png",
-            imageBeforeDescription: '/images/pandora_streetscape.jpg',
+            imageBeforeDescription: '/images/pandora_street.jpg',
             image: './images/pandora.jpg',
             imageCaption: 'Londres 49 & Nápoles 35 after renovation',
             description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were converted into over 35 AirBnB units in November 2023.  It is estimated that 18 families were forcefully evicted from the buildings in December 2020. As tenants described, “XXX” [add more info from the videos of evictions from this building] This Virtual Homes-managed building, renamed Pandora, has dramatically altered the landscape of the surrounding neighborhood.',
