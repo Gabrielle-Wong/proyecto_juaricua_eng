@@ -392,13 +392,66 @@ var config = {
             ]
             
         },
+
+        {
+            // 4: 100+ Landlords
+            id: 'hundred_plus_landlords_text',
+            alignment: 'center',
+            hidden: false,
+            title: 'Mega-Landlords',
+            // image: './images/tulum_beach.jpg',
+            description: 'A few mega-hosts have emerged over the past five years that have come to manage over 1,500 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. <br> <br> Mr.W, Virtual Homes, and several other mega hosts often manage entire apartment buildings of AirBnB units. This raises the question, what existed in these buildings prior to them becoming AirBnBs? Who lived here and what impact has AirBnB had on the surrounding neighborhood?',
+            
+            location: {
+                center: [-99.17401, 19.43337],
+                zoom: 12.45,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 1,
+                    duration: 500
+                },
+
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 1, 
+                    duration: 500
+                }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+              
+                
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+            
+        },
+
         {
             // 4: 100+ Unit Landlords
             id: 'hundred_plus_landlords_dec2019',
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2019',
-            description: 'A few mega-hosts have emerged over the past five years that have come to manage over 1,500 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. TODO: add text to explain the map (if we still choose to include it)',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
@@ -460,7 +513,6 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mega-Landlords: December 2023',
-            description: 'A few mega-hosts have emerged over the past five years that have come to manage almost 2000 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. TODO: add text to explain the map (if we still choose to include it)',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
@@ -518,154 +570,6 @@ var config = {
             ]
             
         },
-
-       
-        {
-            // 5: Airbnb Buildings
-            id: 'airbnb_buildings',
-            alignment: 'left',
-            hidden: false,
-            title: 'The Growth of Ghost Hotels',
-            description: 'Mr.W, Virtual Homes, and several other mega hosts often manage entire apartment buildings of AirBnB units. This raises the question, what existed in these buildings prior to them becoming AirBnBs? Who lived here and what impact has AirBnB had on the surrounding neighborhood?',
-            image: "./images/building_legend.png",
-            legend: '<em> This map is interactive! You can zoom and pan. The address of the building, based on evidence from the listing and/or website of each host, will be shown after zooming in. </em>',
-            location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'easeTo',
-            mapInteractive: true, 
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 1,
-                    duration: 500
-                },
-
-                {
-                    layer: 'airbnbBuildingsHost',
-                    opacity: 0.75, 
-                    duration: 500
-                },
-
-                {
-                    layer: 'airbnbBuildingsHostLabel',
-                    opacity: 1, 
-                    duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                },
-                {
-                    layer: 'airbnbBuildingsHost',
-                    opacity: 0, 
-                    duration: 500
-                },
-                {
-                    layer: 'airbnbBuildingsHostLabel',
-                    opacity: 0, 
-                    duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-            
-        },
-
-        {
-            // 5: Airbnb Buildings
-            id: 'airbnb_buildings_2024edition',
-            alignment: 'left',
-            hidden: false,
-            title: 'The Growth of Ghost Hotels (2024 edition)',
-            description: 'Mr.W, Virtual Homes, and several other mega hosts often manage entire apartment buildings of AirBnB units. This raises the question, what existed in these buildings prior to them becoming AirBnBs? Who lived here and what impact has AirBnB had on the surrounding neighborhood?',
-            image: "./images/building_legend.png",
-            legend: '<em> This map is interactive! You can zoom and pan. The address of the building, based on evidence from the listing and/or website of each host, will be shown after zooming in. </em>',
-            location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'easeTo',
-            mapInteractive: true, 
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 1,
-                    duration: 500
-                },
-
-                {
-                    layer: 'airbnbBuildingsHost2024',
-                    opacity: 0.75, 
-                    duration: 500
-                },
-
-                {
-                    layer: 'airbnbBuildingsHostLabel2024',
-                    opacity: 1, 
-                    duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                },
-                {
-                    layer: 'airbnbBuildingsHost2024',
-                    opacity: 0, 
-                    duration: 500
-                },
-                {
-                    layer: 'airbnbBuildingsHostLabel2024',
-                    opacity: 0, 
-                    duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-            
-        },
-
        
 
         {
@@ -889,7 +793,6 @@ var config = {
             hidden: false,
             title: 'Londres 49 & Nápoles 35',
             // imageBeforeDescription: "./images/juarez_skyline.png",
-            imageBeforeDescription: '/images/pandora_street.jpg',
             image: './images/pandora.jpg',
             imageCaption: 'Londres 49 & Nápoles 35 after renovation',
             description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were converted into over 35 AirBnB units in November 2023.  It is estimated that 18 families were forcefully evicted from the buildings in December 2020. As tenants described, “XXX” [add more info from the videos of evictions from this building] This Virtual Homes-managed building, renamed Pandora, has dramatically altered the landscape of the surrounding neighborhood.',
@@ -953,6 +856,7 @@ var config = {
             hidden: false,
             title: '',
             // image: './images/tulum_beach.jpg',
+            image: '.images/pandora_streetscape.png',
             description: 'AirBnB has had a tremendous impact on the daily lives of Mexico City residents in the city’s central core. In the case of AirBnB redevelopments like Dinamarca 77 and Pandora, tenants lives are profoundly impacted, first through the trauma of the violent evictions they were forced to experience, and then by the difficulty residents often have in finding other apartments in their budget in the neighborhood. This is also due in part to how the increase in AirBnB units drives up local rent prices, taking rental units off the market and turning them into short-term rentals with inflated nightly costs. <br> <br> The increase in AirBnB units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists. The emergence of AirBn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to AirBnB units also displaced an economical restaurant and a corner store, turning these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of... ',
             
             location: {
