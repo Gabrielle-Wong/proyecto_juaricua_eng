@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 11, 2024 ',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 14, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -122,7 +122,7 @@ var config = {
             title: 'AirBnB Listings in Alcaldía Cuauhtémoc',
             
             description: 'Around the time we see this uptake in interest from “digital nomads” seeking to work remotely in Mexico City, we also observe a dramatic increase in the number of short term rentals, particularly AirBnBs, listed in the central core of Mexico City. While the Roma and Condesa neighborhoods had already been populated with a multitude of AirBnB units prior to the pandemic, the number of AirBnB units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, has increased by 69% between 2019 and 2024. ',
-            legend: '<em>AirBnB units in Cuauhtémoc, October 2023. Each pink dot represents one AirBnB unit. Data from Inside Airbnb, 2023. <br> <br> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em>AirBnB units in Cuauhtémoc, December 2023. Each pink dot represents one AirBnB unit. Data from Inside Airbnb, 2023. <br> <br> This map is interactive! You can zoom and pan. </em>',
             // image: './images/airbnb_points.png',
 
 
@@ -149,7 +149,7 @@ var config = {
                     duration: 500
                 },
                 {
-                    layer: 'oct23',
+                    layer: 'dec23',
                     opacity: 0.5,
                     duration: 500
                 }
@@ -162,7 +162,7 @@ var config = {
             onChapterExit: [
                 
                 {
-                    layer: 'oct23',
+                    layer: 'dec23',
                     opacity: 0,
                     duration: 500
                 },
@@ -284,7 +284,7 @@ var config = {
             id: 'mega_landlords_ii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host AirBnB listings in October 2019 ",
+            title: "Mega Host AirBnB listings in December 2019 ",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
             // description: 'Since 2022, there has been a noted increase in AirBnB landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
@@ -307,7 +307,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'oct19Hosts',
+                    layer: 'dec19_hosts',
                     opacity: 1, 
                     duration: 500
                 },
@@ -325,7 +325,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'oct19Hosts',
+                    layer: 'dec19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -342,7 +342,7 @@ var config = {
             id: 'mega_landlords_iii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host AirBnB listings in October 2023",
+            title: "Mega Host AirBnB listings in December 2023",
             image: './images/number_of_units_owned_legend.png',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
 
@@ -364,7 +364,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'oct23Hosts',
+                    layer: 'dec23_hosts',
                     opacity: 1,
                     duration: 500
                 },
@@ -381,7 +381,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'oct23Hosts',
+                    layer: 'dec23_hosts',
                     opacity: 0,
                     duration: 500
                 }
