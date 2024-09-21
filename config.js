@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 14, 2024 ',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 21, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -119,10 +119,10 @@ var config = {
             id: 'context_cuahtemoc',
             alignment: 'left',
             hidden: false,
-            title: 'AirBnB Listings in Alcaldía Cuauhtémoc',
+            title: 'Airbnb Listings in Alcaldía Cuauhtémoc',
             
             description: 'Around the time we see this uptake in interest from “digital nomads” seeking to work remotely in Mexico City, we also observe a dramatic increase in the number of short term rentals, particularly AirBnBs, listed in the central core of Mexico City. While the Roma and Condesa neighborhoods had already been populated with a multitude of AirBnB units prior to the pandemic, the number of AirBnB units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, has increased by 69% between 2019 and 2024. ',
-            legend: '<em>AirBnB units in Cuauhtémoc, December 2023. Each pink dot represents one AirBnB unit. Data from Inside Airbnb, 2023. <br> <br> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em>Airbnb units in Cuauhtémoc, December 2023. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2023. <br> <br> This map is interactive! You can zoom and pan. </em>',
             // image: './images/airbnb_points.png',
 
 
@@ -186,7 +186,7 @@ var config = {
             hidden: false,
             // title: 'Cuauhtémoc',
             
-            // description: 'This in turn has resulted in a dramatic increase in the number of short term rentals in Mexico City, particularly AirBnBs, in the central core of Mexico City. While the Roma and Condesa neighborhoods already held a significant number of AirBnB units, since the company arrived in 2011, has increased by X% between 2019 and 2024.',
+           
             image: './images/airbnb_points.png',
             
 
@@ -230,7 +230,7 @@ var config = {
             hidden: false,
             title: 'The Growth of Mega-Hosts',
             // image: './images/tulum_beach.jpg',
-            description: 'This noted increase in AirBnBs in Mexico City also marks a shift in the short term rental business model, as we also begin to observe an increase in AirBnB landlords that manage multiple units - anywhere from dozens up to hundreds of units. The maps below illustrate the increase in number of AirBnB units between 2019 and 2023, and in particular how these units are increasingly owned by mega-hosts.',
+            description: 'This noted increase in Airbnb units in Mexico City also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. The maps below illustrate the increase in number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by mega-hosts.',
             
             location: {
                 center: [-99.17401, 19.43337],
@@ -284,10 +284,10 @@ var config = {
             id: 'mega_landlords_ii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host AirBnB listings in December 2019 ",
+            title: "Mega Host Airbnb listings in December 2019 ",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
-            // description: 'Since 2022, there has been a noted increase in AirBnB landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
+            // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
                 center: [-99.17401, 19.43337],
@@ -342,7 +342,7 @@ var config = {
             id: 'mega_landlords_iii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host AirBnB listings in December 2023",
+            title: "Mega Host Airbnb listings in December 2023",
             image: './images/number_of_units_owned_legend.png',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
 
@@ -400,7 +400,7 @@ var config = {
             hidden: false,
             title: 'Mega-Landlords',
             // image: './images/tulum_beach.jpg',
-            description: 'A few mega-hosts have emerged over the past five years that have come to manage over 1,500 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. <br> <br> Mr.W, Virtual Homes, and several other mega hosts often manage entire apartment buildings of AirBnB units. This raises the question, what existed in these buildings prior to them becoming AirBnBs? Who lived here and what impact has AirBnB had on the surrounding neighborhood?',
+            description: 'A few mega-hosts have emerged over the past five years that have come to manage over 1,500 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. <br> <br> Mr.W, Virtual Homes, and several other mega hosts often manage entire apartment buildings of Airbnb units. This raises the question, what existed in these buildings prior to them becoming Airbnbs? Who lived here and what impact has Airbnb had on the surrounding neighborhood?',
             
             location: {
                 center: [-99.17401, 19.43337],
@@ -579,7 +579,7 @@ var config = {
             hidden: false,
             title: 'Colonia Juárez',
             // image: './images/tulum_beach.jpg',
-            description: 'Colonia Juarez is one such neighborhood that has felt the effects of this increase in AirBnB presence over the past few years. While there were only 612 AirBnB units in the neighborhood in 2019, as of October 2023, there are 1,237 units. This is effectively 600+ fewer apartments available for local residents. ',
+            description: 'Colonia Juarez is one such neighborhood that has felt the effects of this increase in Airbnb presence over the past few years. While there were only 612 Airbnb units in the neighborhood in 2019, as of October 2023, there are 1,237 units. This is effectively 600+ fewer apartments available for local residents. ',
             
             location: {
                 center: [-99.17199, 19.42819],
@@ -629,7 +629,7 @@ var config = {
             hidden: false,
             // title: 'Colonia Juárez',
             image: './images/jua_points.png',
-            //description: 'One neighborhood in particular has felt the effects of this increase in AirBnB units since the onset of the pandemic is the Colonia Juarez. While there were only 612 AirBnb units in the neighborhood in 2019, as of 2024, there are 1,237. ',
+            //description: 'One neighborhood in particular has felt the effects of this increase in Airbnb units since the onset of the pandemic is the Colonia Juarez. While there were only 612 Airbnb units in the neighborhood in 2019, as of 2024, there are 1,237. ',
             
             location: {
                 center: [-99.17199, 19.42819],
@@ -731,7 +731,7 @@ var config = {
             title: 'Dinamarca 77',
             image: './images/dinamarca.jpg',
             imageCaption: 'Dinamarca 77 in 2024', 
-            description: 'For the residents of one such building in Colonia Juárez, Dinamarca 77, 12 families are estimated to have been forcefully evicted in April 2018. [add more info from the videos of evictions from this building] This building opened as approximately 11 AirBnb units in October 2023 which are owned by Mr.W, the mega-host that owns the most units in Mexico City. ',
+            description: 'For the residents of one such building in Colonia Juárez, Dinamarca 77, 12 families are estimated to have been forcefully evicted in April 2018. [add more info from the videos of evictions from this building] This building opened as approximately 11 Airbnb units in October 2023 which are owned by Mr.W, the mega-host that owns the most units in Mexico City. ',
             
             location: {
                 center: [-99.15789, 19.42543],
@@ -795,7 +795,7 @@ var config = {
             // imageBeforeDescription: "./images/juarez_skyline.png",
             image: './images/pandora.jpg',
             imageCaption: 'Londres 49 & Nápoles 35 after renovation',
-            description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were converted into over 35 AirBnB units in November 2023.  It is estimated that 18 families were forcefully evicted from the buildings in December 2020. As tenants described, “XXX” [add more info from the videos of evictions from this building] This Virtual Homes-managed building, renamed Pandora, has dramatically altered the landscape of the surrounding neighborhood.',
+            description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were converted into over 35 Airbnb units in November 2023.  It is estimated that 18 families were forcefully evicted from the buildings in December 2020. As tenants described, “XXX” [add more info from the videos of evictions from this building] This Virtual Homes-managed building, renamed Pandora, has dramatically altered the landscape of the surrounding neighborhood.',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
@@ -857,7 +857,7 @@ var config = {
             title: '',
             // image: './images/tulum_beach.jpg',
             image: '.images/pandora_streetscape.png',
-            description: 'AirBnB has had a tremendous impact on the daily lives of Mexico City residents in the city’s central core. In the case of AirBnB redevelopments like Dinamarca 77 and Pandora, tenants lives are profoundly impacted, first through the trauma of the violent evictions they were forced to experience, and then by the difficulty residents often have in finding other apartments in their budget in the neighborhood. This is also due in part to how the increase in AirBnB units drives up local rent prices, taking rental units off the market and turning them into short-term rentals with inflated nightly costs. <br> <br> The increase in AirBnB units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists. The emergence of AirBn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to AirBnB units also displaced an economical restaurant and a corner store, turning these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of... ',
+            description:'Airbnb has had a tremendous impact on the daily lives of Mexico City residents in the city’s central core. In the case of Airbnb-driven redevelopments like Dinamarca 77 and Pandora, tenants lives are profoundly impacted, first through the trauma of the violent evictions they were forced to experience, and then by the difficulty residents often have in finding other apartments in their budget in the neighborhood. This is also due in part to how the increase in Airbnb units drives up local rent prices, taking rental units off the market and turning them into short-term rentals with inflated nightly costs. <br> <br> The increase in Airbnb units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists. The emergence of AirBn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to Airbnb units also displaced an economical restaurant and a corner store, turning these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of... ',
             
             location: {
                 center: [-99.17276, 19.42655],
@@ -1019,6 +1019,85 @@ var config = {
                 // }
             ]
         },
+
+        {
+            // References
+            id: 'acknowledgements',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            // image: './images/tulum_beach.jpg',
+            // description: 'Text for the chapter',
+            description: "add acknowledgements here.",
+            location: {
+                center: [-99.12574, 19.39614],
+                zoom: 10.00,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
+        {
+            // References
+            id: 'references',
+            alignment: 'full',
+            hidden: false,
+            title: 'References',
+            // image: './images/tulum_beach.jpg',
+            // description: 'Text for the chapter',
+            description: "add references here.",
+            location: {
+                center: [-99.12574, 19.39614],
+                zoom: 10.00,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
 
         {
             // Map Only Chapter
