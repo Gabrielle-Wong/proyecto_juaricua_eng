@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 21, 2024 ',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 23, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -30,7 +30,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             // title: 'Introduction',
-            // image: './images/tulum_beach.jpg',
+            
             
             description: 'Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City for extended periods of time. ',
             image: './images/intro_image_v2.png',
@@ -855,8 +855,8 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: '',
-            // image: './images/tulum_beach.jpg',
-            image: '.images/pandora_streetscape.png',
+        
+            image: './images/pandora_streetscape.jpg',
             description:'Airbnb has had a tremendous impact on the daily lives of Mexico City residents in the city’s central core. In the case of Airbnb-driven redevelopments like Dinamarca 77 and Pandora, tenants lives are profoundly impacted, first through the trauma of the violent evictions they were forced to experience, and then by the difficulty residents often have in finding other apartments in their budget in the neighborhood. This is also due in part to how the increase in Airbnb units drives up local rent prices, taking rental units off the market and turning them into short-term rentals with inflated nightly costs. <br> <br> The increase in Airbnb units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists. The emergence of AirBn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to Airbnb units also displaced an economical restaurant and a corner store, turning these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of... ',
             
             location: {
