@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 23, 2024 ',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on September 30, 2024 ',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -34,7 +34,7 @@ var config = {
             
             description: 'Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City for extended periods of time. ',
             image: './images/intro_image_v2.png',
-            imageCaption: "Left: Your tourism drives out families. <br> Right: It is said that a long, long time ago (before Airbnb), there was life in this building.",
+            imageCaption: "Left: Your tourism displaces families. <br> Right: It is said that a long, long time ago (before Airbnb), there was real life in this building.",
             location: {
                 center: [-99.40935, 19.35071],
                 zoom: 9.25,
@@ -233,8 +233,8 @@ var config = {
             description: 'This noted increase in Airbnb units in Mexico City also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. The maps below illustrate the increase in number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by mega-hosts.',
             
             location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
+                center: [-99.18165, 19.42285],
+                zoom: 13.5,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -255,7 +255,7 @@ var config = {
                 },
                 {
                     layer: 'cuauhtemocLine',
-                    opacity: 1,
+                    opacity: 0.5,
                     duration: 500
                 }
                 // {
@@ -290,8 +290,8 @@ var config = {
             // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
+                center: [-99.18165, 19.42285],
+                zoom: 13.5,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -313,7 +313,7 @@ var config = {
                 },
                 {
                     layer: 'cuauhtemocLine',
-                    opacity: 1,
+                    opacity: 0.5,
                     duration: 500
                 }
                 
@@ -347,8 +347,8 @@ var config = {
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
 
             location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
+                center: [-99.18165, 19.42285],
+                zoom: 13.5,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -370,7 +370,7 @@ var config = {
                 },
                 {
                     layer: 'cuauhtemocLine',
-                    opacity: 1,
+                    opacity: 0.5,
                     duration: 500
                 }
                 // {
@@ -403,8 +403,8 @@ var config = {
             description: 'A few mega-hosts have emerged over the past five years that have come to manage over 1,500 units altogether as of 2024. Two mega-hosts stand out in particular due to the number of units they manage: Mr. W and Virtual Homes. <br> <br> Mr.W, Virtual Homes, and several other mega hosts often manage entire apartment buildings of Airbnb units. This raises the question, what existed in these buildings prior to them becoming Airbnbs? Who lived here and what impact has Airbnb had on the surrounding neighborhood?',
             
             location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
+                center: [-99.18165, 19.42285],
+                zoom: 13.5,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -420,7 +420,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'cuauhtemocLine',
-                    opacity: 1,
+                    opacity: 0.5,
                     duration: 500
                 },
 
@@ -455,8 +455,8 @@ var config = {
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
+                center: [-99.18165, 19.42285],
+                zoom: 13.5,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -473,7 +473,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'cuauhtemocLine',
-                    opacity: 1,
+                    opacity: 0.5,
                     duration: 500
                 },
 
@@ -516,8 +516,8 @@ var config = {
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
-                center: [-99.17401, 19.43337],
-                zoom: 12.45,
+                center: [-99.18165, 19.42285],
+                zoom: 13.5,
                 pitch: 0.00,
                 bearing: 0.00
                 // flyTo additional controls-
@@ -534,7 +534,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'cuauhtemocLine',
-                    opacity: 1,
+                    opacity: 0.5,
                     duration: 500
                 },
 
