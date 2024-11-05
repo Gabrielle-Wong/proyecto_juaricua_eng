@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on November 1, 2024 ',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | TEMPORARY: this site was last updated on November 5, 2024 ',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -33,8 +33,8 @@ var config = {
             
             
             description: 'Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City for extended periods of time.',
-            image: './images/intro_image_v2.png',
-            imageCaption: "Left: Your tourism displaces families. <br> Right: It is said that a long, long time ago (before Airbnb), there was real life in this building.",
+            image: './images/intro_image_v3.png',
+            imageCaption: "ANDREA TO TRANSLATE <br> <br> Left: Your tourism displaces families. <br> Right: It is said that a long, long time ago (before Airbnb), there was real life in this building.",
             location: {
                 center: [-99.40935, 19.35071],
                 zoom: 9.25,
@@ -731,7 +731,7 @@ var config = {
             title: 'Dinamarca 77',
             image: './images/dinamarca.jpg',
             imageCaption: 'Dinamarca 77 in 2024', 
-            description: 'For the residents of one such building in Colonia Juárez, Dinamarca 77, 12 families are estimated to have been forcefully evicted in April 2018.  This building opened as 11 AirBnb units in October 2023. They are owned by Mr.W, the mega-host that owns the most units in Mexico City. <br> <br> Mr. W was established in 2017 by brothers Luís Carlos Weber Zetina and Carlos Enrique Weber Zetina. Until 2019, their presence in Cuauhtémoc was relatively small (< 50 units) . They have since grown to list over 350 units in Cuauhtémoc. The company does not directly own these units. Rather, they are property managers that serve as an intermediary between property owners and potential guests, handling advertising and guest communication in exchange for a portion of the rental income. A spokesperson for the company estimates Airbnb will earn a landlord 30-40% more income from their unit compared to traditional rentals [2]. This is a clear incentive for landlords to evict families and turn the keys over to managers like Mr. W.',
+            description: 'Dinamarca 77 is one building in la Colonia Juárez where the effects of the capitalist real estate market are evident. 12 families are estimated to have been forcefully evicted in April 2018.  This building opened as 11 AirBnb units in October 2023. They are owned by Mr.W, the mega-host that rents the most short term rental units on Airbnb’s platform in Mexico City. <br> <br> Mr. W was established in 2017 by brothers Luís Carlos Weber Zetina and Carlos Enrique Weber Zetina. Until 2019, their presence in Cuauhtémoc was relatively small (< 50 units), and they have since grown to host over 350 units in Cuauhtémoc. The company does not directly own these units; rather, they are property managers that serve as an intermediary between property owners and potential guests, handling advertising and guest communication in exchange for a portion of the rental income. A spokesperson for the company estimates Airbnb could earn a landlord 30-40% more income from their unit compared to traditional rentals [2]. This is a clear incentive for landlords to evict families and turn the keys over to managers like Mr. W.',
             
             location: {
                 center: [-99.15789, 19.42543],
@@ -1084,7 +1084,8 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Policy Shifts in Mexico City',
-            // image: './images/tulum_beach.jpg',
+            image: './images/digital_nomad_announcement.jpg',
+            imageCaption: 'ANDREA TO TRANSLATE',
             description: 'The growth of Airbnb and its impacts on local populations are not ‘natural’ nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would be partnered with Airbnb and Mexico City explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” [6]. While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since backtracked in its welcome of digital nomads. <br> <br> On April 4, 2024 the government of Mexico City decided to implement new regulations regarding Airbnb and other short-term rental platforms, in an attempt to slow gentrification. The new regulations aim to create a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit. Hosts will also need to present an occupation report and change land usage if they have more than 3 properties [7]. <br> <br> On September 21, 2024, Mexico City’s municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods. Additionally, the government will prohibit short term rentals from being located in social, popular and rebuilt housing. <br> <br> Mexico City’s municipal policy is not enough to stop gentrification or minimize the impact it has in neighborhoods like Júarez, Roma and Condesa. We also need to talk about who are the users of short-term housing, and what can be done to regulate the touristification of Mexico City. When talking about gentrification, we cannot put the blame only on Airbnb as a business itself;  the people who use the platform and those who permitted and have profited from Airbnb’s exponential growth also need to be implicated. ',
             
             location: {
@@ -1166,7 +1167,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Conclusion',
-            image: './images/murals.png',
+            image: './images/juarez_conclusion.png',
             imageCaption: 'Murals like these are one way organizers in la Colonia Juárez resist blanqueamiento por despojo and make their claims to the neighbourhood visible.',
             // image: './images/tulum_beach.jpg',
             // description: 'The growth of Airbnb and its impacts on local populations are not ‘natural’ nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would be partnered with Airbnb and Mexico City explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” (Airbnb, 2022). While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since backtracked in its welcome of digital nomads. <br> <br> On April 4, 2024 the government of Mexico City decided to implement new regulations regarding Airbnb and other short-term rental platforms, in an attempt to slow gentrification. The new regulations aim to create a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit. Hosts will also need to present an occupation report and change land usage if they have more than 3 properties. <br> <br> On September 21, 2024, Mexico City’s municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods. Additionally, the government will prohibit short term rentals from being located in social, popular and rebuilt housing. <br> <br> Mexico City’s municipal policy is not enough to stop gentrification or minimize the impact it has in neighborhoods like Júarez, Roma and Condesa. We also need to talk about who are the users of short-term housing, and what can be done to regulate the touristification of Mexico City. When talking about gentrification, we cannot put the blame only on Airbnb as a business itself;  the people who use the platform and those who permitted and have profited from Airbnb’s exponential growth also need to be implicated. ',
