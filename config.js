@@ -110,7 +110,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -209,7 +209,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -230,7 +230,7 @@ var config = {
             title: 'Airbnb Listings in Alcaldía Cuauhtémoc',
             
             description: 'Around the time this influencer content begins to run rampant on social media, we observe a dramatic increase in the number of short term rentals, particularly Airbnbs, listed in the central core of Mexico City. While the Roma and Condesa neighborhoods were already hotbeds for Airbnb units prior to the pandemic, the number of Airbnb units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, increased by a whopping 71% between 2019 and 2024.',
-            legend: '<em>Airbnb units in Cuauhtémoc, December 2023. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2023. <br> <br> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em>Airbnb units in Cuauhtémoc, September 2024. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2024. <br> <br> This map is interactive! You can zoom and pan. </em>',
             // image: './images/airbnb_points.png',
 
 
@@ -257,7 +257,7 @@ var config = {
                     duration: 500
                 },
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0.5,
                     duration: 500
                 }
@@ -318,7 +318,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -420,7 +420,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -524,7 +524,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -636,7 +636,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -745,7 +745,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -854,7 +854,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -967,7 +967,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1076,7 +1076,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1177,7 +1177,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1273,7 +1273,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1374,7 +1374,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1480,7 +1480,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1585,7 +1585,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1677,7 +1677,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1737,7 +1737,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1843,7 +1843,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -1949,7 +1949,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -2044,7 +2044,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -2139,7 +2139,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -2235,7 +2235,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -2331,7 +2331,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -2425,7 +2425,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -2518,7 +2518,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
@@ -2611,7 +2611,7 @@ var config = {
                 },
                
                 {
-                    layer: 'dec23',
+                    layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
