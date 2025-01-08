@@ -61,10 +61,64 @@ var config = {
             ],
             onChapterExit: [
                 
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -106,10 +160,64 @@ var config = {
             ],
             onChapterExit: [
                 
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -161,6 +269,54 @@ var config = {
             ],
             onChapterExit: [
                 
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
                 {
                     layer: 'dec23',
                     opacity: 0,
@@ -215,10 +371,64 @@ var config = {
             ],
             onChapterExit: [
                 
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -266,10 +476,63 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'dec19Hosts',
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
                     opacity: 0,
                     duration: 500
                 },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
                 
                 // {
                 //     layer: 'layer-name',
@@ -325,10 +588,63 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
                     layer: 'dec19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
                
                 // {
                 //     layer: 'layer-name',
@@ -381,7 +697,60 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
                     layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
                     opacity: 0,
                     duration: 500
                 }
@@ -436,7 +805,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-              
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
                 
                 // {
                 //     layer: 'layer-name',
@@ -493,15 +919,63 @@ var config = {
             onChapterExit: [
                 
                 {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
                     layer: 'dec19megahosts',
                     opacity: 0, 
                     duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
                 }
-
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
             ]
             
         },
@@ -552,21 +1026,66 @@ var config = {
                 // }
             ],
             onChapterExit: [
+               
                 {
-                    layer: 'cuauhtemocLine',
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
                     opacity: 0,
                     duration: 500
-                },
+                }, 
                 {
                     layer: 'dec23megahosts',
                     opacity: 0, 
                     duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
                 }
-
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                
             ]
             
         },
@@ -610,14 +1129,63 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
                     layer: 'juarezLine',
                     opacity: 0,
                     duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
             ]
             
         },
@@ -657,14 +1225,63 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
                     layer: 'juarezLine',
                     opacity: 0,
                     duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
             ]
             
         },
@@ -709,14 +1326,63 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
                     layer: 'juarezLine',
                     opacity: 0,
                     duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
             ]
             
         },
@@ -766,6 +1432,17 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
                     layer: 'dinamarca77',
                     opacity: 0,
                     duration: 4000
@@ -775,11 +1452,43 @@ var config = {
                     layer: 'minusDinamarca77',
                     opacity: 0,
                     duration: 3000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -837,7 +1546,54 @@ var config = {
                     layer: 'minusNapoles35',
                     opacity: 0,
                     duration: 3000
-                 }
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 0
@@ -874,20 +1630,62 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'napoles35',
-                    opacity: 0.9,
+                    opacity: 0,
                     duration: 4000
                  },
-                 
+
                  {
                     layer: 'minusNapoles35',
-                    opacity: 0.7,
-                    duration: 5000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ],
             onChapterExit: [
                 {
@@ -900,11 +1698,54 @@ var config = {
                     layer: 'minusNapoles35',
                     opacity: 0,
                     duration: 3000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -963,11 +1804,54 @@ var config = {
                     layer: 'minusNapoles35',
                     opacity: 0,
                     duration: 3000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -1026,11 +1910,54 @@ var config = {
                     layer: 'minusNapoles35',
                     opacity: 0,
                     duration: 3000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -1068,10 +1995,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -1109,10 +2090,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -1151,10 +2186,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -1193,10 +2282,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
             
         },
@@ -1233,10 +2376,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
         },
 
@@ -1272,10 +2469,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
         },
 
@@ -1311,10 +2562,64 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec23megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'dec23_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'dec19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'dec23',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ]
         }
 
