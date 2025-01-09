@@ -89,7 +89,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -188,7 +188,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -297,7 +297,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -399,7 +399,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -553,7 +553,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -662,7 +662,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -771,7 +771,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -884,7 +884,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -924,7 +924,7 @@ var config = {
             id: 'hundred_plus_landlords_dec2023',
             alignment: 'left',
             hidden: false,
-            title: 'Mega-Landlords: December 2023',
+            title: 'Mega-Landlords: September 2024',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
@@ -951,7 +951,7 @@ var config = {
                 },
 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 1, 
                     duration: 500
                 }
@@ -994,7 +994,7 @@ var config = {
                 }, 
 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1096,7 +1096,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1192,7 +1192,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1293,7 +1293,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1399,7 +1399,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1504,7 +1504,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1596,7 +1596,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1656,7 +1656,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1762,7 +1762,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1868,7 +1868,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -1963,7 +1963,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -2058,7 +2058,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -2154,7 +2154,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -2250,7 +2250,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -2344,7 +2344,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -2437,7 +2437,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
@@ -2530,7 +2530,7 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec23megahosts',
+                    layer: 'sep24_megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
