@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | January 7, 2025',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | January 9, 2025',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -94,17 +94,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -193,17 +193,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -302,17 +302,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -404,17 +404,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -440,7 +440,7 @@ var config = {
             hidden: false,
             title: 'The Growth of Mega-Hosts',
             // image: './images/tulum_beach.jpg',
-            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. The maps below illustrate the increase in the number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by mega-hosts.',
+            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. The maps below illustrate the increase in the number of Airbnb units between 2019 and 2024, and in particular how these units are increasingly owned by mega-hosts.',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -475,69 +475,7 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                {
-                    layer: 'napoles35',
-                    opacity: 0,
-                    duration: 4000
-                 },
-
-                 {
-                    layer: 'minusNapoles35',
-                    opacity: 0,
-                    duration: 3000
-                 }, 
-                 {
-                    layer: 'dinamarca77',
-                    opacity: 0,
-                    duration: 4000
-                 },
-
-                 {
-                    layer: 'minusDinamarca77',
-                    opacity: 0,
-                    duration: 3000
-                 },
-                 {
-                    layer: 'juarezLine',
-                    opacity: 0,
-                    duration: 500
-                }, 
-                {
-                    layer: 'dec23megahosts',
-                    opacity: 0, 
-                    duration: 500
-                }, 
-                {
-                    layer: 'dec19megahosts',
-                    opacity: 0, 
-                    duration: 500
-                },
-                {
-                    layer: 'dec23_hosts',
-                    opacity: 0,
-                    duration: 500
-                }, 
-                {
-                    layer: 'dec19_hosts',
-                    opacity: 0, 
-                    duration: 500
-                },
-               
-                {
-                    layer: 'sep24',
-                    opacity: 0,
-                    duration: 500
-                },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
-                
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+              
             ]
             
         },
@@ -547,7 +485,7 @@ var config = {
             id: 'mega_landlords_ii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host Airbnb listings in December 2019 ",
+            title: "Mega Host Airbnb listings in September 2019 ",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
             // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
@@ -570,7 +508,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 1, 
                     duration: 500
                 },
@@ -620,17 +558,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -658,7 +596,7 @@ var config = {
             id: 'mega_landlords_iii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host Airbnb listings in December 2023",
+            title: "Mega Host Airbnb listings in September 2024",
             image: './images/number_of_units_owned_legend.png',
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
 
@@ -680,7 +618,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 1,
                     duration: 500
                 },
@@ -729,17 +667,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -794,7 +732,7 @@ var config = {
                 },
 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 1, 
                     duration: 500
                 }
@@ -838,17 +776,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -877,7 +815,7 @@ var config = {
             id: 'hundred_plus_landlords_dec2019',
             alignment: 'left',
             hidden: false,
-            title: 'Mega-Landlords: December 2019',
+            title: 'Mega-Landlords: September 2019',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive! You can zoom and pan. </em>',
             location: {
@@ -904,7 +842,7 @@ var config = {
                 },
 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 1, 
                     duration: 500
                 }
@@ -951,17 +889,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1054,23 +992,25 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }, 
+
                 {
                     layer: 'dec23megahosts',
                     opacity: 0, 
                     duration: 500
                 }, 
+                
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1161,17 +1101,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1257,17 +1197,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1358,17 +1298,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1464,17 +1404,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1569,17 +1509,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1661,17 +1601,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1721,17 +1661,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1827,17 +1767,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -1933,17 +1873,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -2028,17 +1968,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -2123,17 +2063,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -2219,17 +2159,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -2315,17 +2255,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -2409,17 +2349,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -2502,17 +2442,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
@@ -2595,17 +2535,17 @@ var config = {
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19megahosts',
+                    layer: 'sep19_megahosts',
                     opacity: 0, 
                     duration: 500
                 },
                 {
-                    layer: 'dec23_hosts',
+                    layer: 'sep24_hosts',
                     opacity: 0,
                     duration: 500
                 }, 
                 {
-                    layer: 'dec19_hosts',
+                    layer: 'sep19_hosts',
                     opacity: 0, 
                     duration: 500
                 },
