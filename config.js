@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | January 9, 2025',
+    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | January 12, 2025',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template.',
     
     // Chapter Details
@@ -52,15 +52,6 @@ var config = {
             callback: '',
             onChapterEnter: [
 
-              
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -119,6 +110,10 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+            ],
+            onChapterExit: [
+                
+               
             ]
             
         },
@@ -151,15 +146,6 @@ var config = {
             callback: '',
             onChapterEnter: [
 
-              
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -218,6 +204,10 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+            ],
+            onChapterExit: [
+                
+               
             ]
             
         },
@@ -260,15 +250,7 @@ var config = {
                     layer: 'sep24',
                     opacity: 0.5,
                     duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                
+                },
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -317,20 +299,15 @@ var config = {
                     duration: 500
                 },
                
-                {
-                    layer: 'sep24',
-                    opacity: 0,
-                    duration: 500
-                },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
+               
                 // {
                 //     layer: 'layer-name',
-                //     opacity: 0
+                //     opacity: 1,
+                //     duration: 5000
                 // }
+            ],
+            onChapterExit: [
+                
             ]
             
         },
@@ -363,14 +340,6 @@ var config = {
             callback: '',
             onChapterEnter: [
                
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -429,6 +398,9 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+            ],
+            onChapterExit: [
+             
             ]
             
         },
@@ -459,7 +431,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'dec19Hosts',
+                    layer: 'sep19_hosts',
                     opacity: 1,
                     duration: 500
                 },
@@ -467,12 +439,56 @@ var config = {
                     layer: 'cuauhtemocLine',
                     opacity: 0.5,
                     duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                },
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep24_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'sep24_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+               
+                {
+                    layer: 'sep24',
+                    opacity: 0,
+                    duration: 500
+                },
+              
             ],
             onChapterExit: [
               
@@ -516,15 +532,8 @@ var config = {
                     layer: 'cuauhtemocLine',
                     opacity: 0.5,
                     duration: 500
-                }
-                
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -567,23 +576,21 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }, 
-                {
-                    layer: 'sep19_hosts',
-                    opacity: 0, 
-                    duration: 500
-                },
                
                 {
                     layer: 'sep24',
                     opacity: 0,
                     duration: 500
                 },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
-               
+              
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+              
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 0
@@ -626,14 +633,8 @@ var config = {
                     layer: 'cuauhtemocLine',
                     opacity: 0.5,
                     duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -671,11 +672,7 @@ var config = {
                     opacity: 0, 
                     duration: 500
                 },
-                {
-                    layer: 'sep24_hosts',
-                    opacity: 0,
-                    duration: 500
-                }, 
+               
                 {
                     layer: 'sep19_hosts',
                     opacity: 0, 
@@ -687,15 +684,15 @@ var config = {
                     opacity: 0,
                     duration: 500
                 },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
+               
                 // {
                 //     layer: 'layer-name',
-                //     opacity: 0
+                //     opacity: 1,
+                //     duration: 5000
                 // }
+            ],
+            onChapterExit: [
+               
             ]
             
         },
@@ -735,14 +732,8 @@ var config = {
                     layer: 'sep19_megahosts',
                     opacity: 1, 
                     duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -770,11 +761,7 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }, 
-                {
-                    layer: 'sep24_megahosts',
-                    opacity: 0, 
-                    duration: 500
-                }, 
+                
                 {
                     layer: 'sep19_megahosts',
                     opacity: 0, 
@@ -796,12 +783,15 @@ var config = {
                     opacity: 0,
                     duration: 500
                 },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
-                
+               
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+    
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 0
@@ -845,17 +835,8 @@ var config = {
                     layer: 'sep19_megahosts',
                     opacity: 1, 
                     duration: 500
-                }
-
-            
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -888,11 +869,7 @@ var config = {
                     opacity: 0, 
                     duration: 500
                 }, 
-                {
-                    layer: 'sep19_megahosts',
-                    opacity: 0, 
-                    duration: 500
-                },
+               
                 {
                     layer: 'sep24_hosts',
                     opacity: 0,
@@ -909,11 +886,19 @@ var config = {
                     opacity: 0,
                     duration: 500
                 },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
+                
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+             
             ]
             
         },
@@ -954,17 +939,8 @@ var config = {
                     layer: 'sep24_megahosts',
                     opacity: 1, 
                     duration: 500
-                }
-
-            
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-               
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -992,13 +968,7 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }, 
-
-                {
-                    layer: 'sep24_megahosts',
-                    opacity: 0, 
-                    duration: 500
-                }, 
-                
+               
                 {
                     layer: 'sep19_megahosts',
                     opacity: 0, 
@@ -1020,12 +990,18 @@ var config = {
                     opacity: 0,
                     duration: 500
                 },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
-                
+               
+
+            
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+             
+             
             ]
             
         },
@@ -1060,14 +1036,8 @@ var config = {
                     layer: 'juarezLine',
                     opacity: 1,
                     duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -1090,11 +1060,6 @@ var config = {
                     opacity: 0,
                     duration: 3000
                  },
-                 {
-                    layer: 'juarezLine',
-                    opacity: 0,
-                    duration: 500
-                }, 
                 {
                     layer: 'sep24_megahosts',
                     opacity: 0, 
@@ -1126,6 +1091,14 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+               
             ]
             
         },
@@ -1156,14 +1129,8 @@ var config = {
                     layer: 'juarezLine',
                     opacity: 1,
                     duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -1186,11 +1153,6 @@ var config = {
                     opacity: 0,
                     duration: 3000
                  },
-                 {
-                    layer: 'juarezLine',
-                    opacity: 0,
-                    duration: 500
-                }, 
                 {
                     layer: 'sep24_megahosts',
                     opacity: 0, 
@@ -1222,6 +1184,14 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+               
             ]
             
         },
@@ -1257,14 +1227,8 @@ var config = {
                     layer: 'juarezLine',
                     opacity: 1,
                     duration: 500
-                }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                },
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -1287,11 +1251,6 @@ var config = {
                     opacity: 0,
                     duration: 3000
                  },
-                 {
-                    layer: 'juarezLine',
-                    opacity: 0,
-                    duration: 500
-                }, 
                 {
                     layer: 'sep24_megahosts',
                     opacity: 0, 
@@ -1323,6 +1282,14 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                
             ]
             
         },
@@ -1363,14 +1330,8 @@ var config = {
                     layer: 'minusDinamarca77',
                     opacity: 0.7,
                     duration: 5000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                 },
+                  
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -1382,17 +1343,6 @@ var config = {
                     opacity: 0,
                     duration: 3000
                  }, 
-                 {
-                    layer: 'dinamarca77',
-                    opacity: 0,
-                    duration: 4000
-                 },
-
-                 {
-                    layer: 'minusDinamarca77',
-                    opacity: 0,
-                    duration: 3000
-                 },
                  {
                     layer: 'juarezLine',
                     opacity: 0,
@@ -1429,6 +1379,14 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                
             ]
             
         },
@@ -1468,25 +1426,8 @@ var config = {
                     layer: 'minusNapoles35',
                     opacity: 0.7,
                     duration: 5000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'napoles35',
-                    opacity: 0,
-                    duration: 4000
                  },
-
-                 {
-                    layer: 'minusNapoles35',
-                    opacity: 0,
-                    duration: 3000
-                 }, 
+                  
                  {
                     layer: 'dinamarca77',
                     opacity: 0,
@@ -1536,8 +1477,12 @@ var config = {
                 }
                 // {
                 //     layer: 'layer-name',
-                //     opacity: 0
+                //     opacity: 1,
+                //     duration: 5000
                 // }
+            ],
+            onChapterExit: [
+              
             ]
             
         },
@@ -1570,13 +1515,13 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'napoles35',
-                    opacity: 0,
+                    opacity: 0.9,
                     duration: 4000
                  },
 
                  {
                     layer: 'minusNapoles35',
-                    opacity: 0,
+                    opacity: 0.7,
                     duration: 3000
                  }, 
                  {
@@ -1628,64 +1573,7 @@ var config = {
                 }
             ],
             onChapterExit: [
-                {
-                    layer: 'napoles35',
-                    opacity: 0,
-                    duration: 4000
-                 },
-
-                 {
-                    layer: 'minusNapoles35',
-                    opacity: 0,
-                    duration: 3000
-                 }, 
-                 {
-                    layer: 'dinamarca77',
-                    opacity: 0,
-                    duration: 4000
-                 },
-
-                 {
-                    layer: 'minusDinamarca77',
-                    opacity: 0,
-                    duration: 3000
-                 },
-                 {
-                    layer: 'juarezLine',
-                    opacity: 0,
-                    duration: 500
-                }, 
-                {
-                    layer: 'sep24_megahosts',
-                    opacity: 0, 
-                    duration: 500
-                }, 
-                {
-                    layer: 'sep19_megahosts',
-                    opacity: 0, 
-                    duration: 500
-                },
-                {
-                    layer: 'sep24_hosts',
-                    opacity: 0,
-                    duration: 500
-                }, 
-                {
-                    layer: 'sep19_hosts',
-                    opacity: 0, 
-                    duration: 500
-                },
-               
-                {
-                    layer: 'sep24',
-                    opacity: 0,
-                    duration: 500
-                },
-                {
-                    layer: 'cuauhtemocLine',
-                    opacity: 0,
-                    duration: 500
-                }
+              
             ]
             
         },
@@ -1726,25 +1614,8 @@ var config = {
                     layer: 'minusNapoles35',
                     opacity: 0.7,
                     duration: 5000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'napoles35',
-                    opacity: 0,
-                    duration: 4000
                  },
-
-                 {
-                    layer: 'minusNapoles35',
-                    opacity: 0,
-                    duration: 3000
-                 }, 
+                  
                  {
                     layer: 'dinamarca77',
                     opacity: 0,
@@ -1792,6 +1663,14 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                 
             ]
             
         },
@@ -1832,25 +1711,8 @@ var config = {
                     layer: 'minusNapoles35',
                     opacity: 0.7,
                     duration: 5000
-                 }
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'napoles35',
-                    opacity: 0,
-                    duration: 4000
                  },
-
-                 {
-                    layer: 'minusNapoles35',
-                    opacity: 0,
-                    duration: 3000
-                 }, 
+                  
                  {
                     layer: 'dinamarca77',
                     opacity: 0,
@@ -1898,6 +1760,15 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                
+              
             ]
             
         },
@@ -1928,13 +1799,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -1993,6 +1858,10 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+            ],
+            onChapterExit: [
+              
+                
             ]
             
         },
@@ -2023,13 +1892,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -2088,6 +1951,9 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+            ],
+            onChapterExit: [
+              
             ]
             
         },
@@ -2119,13 +1985,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -2184,6 +2044,9 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+            ],
+            onChapterExit: [
+                
             ]
             
         },
@@ -2215,13 +2078,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -2280,6 +2137,10 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+               
+            ],
+            onChapterExit: [
+                
             ]
             
         },
@@ -2309,13 +2170,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                 
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -2374,6 +2229,10 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+               
+            ],
+            onChapterExit: [
+             
             ]
         },
 
@@ -2402,13 +2261,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
+                
                 {
                     layer: 'napoles35',
                     opacity: 0,
@@ -2467,6 +2320,10 @@ var config = {
                     opacity: 0,
                     duration: 500
                 }
+            ],
+            onChapterExit: [
+                
+               
             ]
         },
 
@@ -2495,11 +2352,65 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep24_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'sep24_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'sep24',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
             ],
             onChapterExit: [
                 {
