@@ -19,7 +19,7 @@ var config = {
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
     byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | January 12, 2025',
-    footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio.',
+    footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. <br>  Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio.',
     
     // Chapter Details
     chapters: [
