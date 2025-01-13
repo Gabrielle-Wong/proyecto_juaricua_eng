@@ -19,7 +19,7 @@ var config = {
     subtitle: "Gentrification in Mexico City Since the Pandemic",
     // subtitle: 'subtitle, if desired',
     byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | January 12, 2025',
-    footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio.',
     
     // Chapter Details
     chapters: [
@@ -32,7 +32,7 @@ var config = {
             // title: 'Introduction',
             
             
-            description: 'Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Tourists are not only visiting for a week-long vacation - since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City to stay for extended periods of time. ',
+            description: '<em> For an optimal experience, please view this story on desktop. </em> <br> <br> Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Tourists are not only visiting for a week-long vacation - since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City to stay for extended periods of time. ',
             image: './images/intro_image_v3.png',
             imageCaption: "ANDREA TO TRANSLATE <br> <br> Left: Your tourism displaces families. <br> Right: It is said that a long, long time ago (before Airbnb), there was real life in this building.",
             location: {
