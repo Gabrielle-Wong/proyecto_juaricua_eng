@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "The Role of Short-term Rentals in Housing Dispossession & Displacement in Mexico City, 2019-2024",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from <em> Proyecto Juaricua </em>, in collaboration with 06600 Observatorio Vecinal de la Colonia Juarez | January 12, 2025',
+    byline: 'A mapping project from Proyecto Juaricua, in collaboration with 06600 Observatorio Vecinal de la Colonia Juarez | January 12, 2025',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. <br>  Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio.',
     
     // Chapter Details
@@ -2053,14 +2053,14 @@ var config = {
 
         {
             // 13: Conclusion
-            id: 'conclusion',
+            id: 'conclude',
             alignment: 'center',
             hidden: false,
             title: 'Conclusion',
             image: './images/juarez_conclusion.png',
             imageCaption: 'Murals like these are one way organizers in la Colonia Juárez resist blanqueamiento por despojo and make their claims to the neighbourhood visible.',
             // image: './images/tulum_beach.jpg',
-            description: 'Although the municipal government’s recent policies signal a desire to slow the growth of Airbnb, it is unclear how successful they will be, and how well (if at all) the new rules will be enforced. Digital nomads continue to take selfies on Mexico City’s streets, and gentrification continues to shape the cultural and economic landscape. However, residents in neighborhoods like La Juárez are not accepting these changes as inevitable. <br> <br> Blanqueamiento por despojo and gentrification are ongoing, and are rooted in longer histories of dispossession in Mexico City. Yet Juaricuas are not deterred - they continue to practice everyday and creative forms of resistance to Airbnb and other forms of capitalist speculation in their neighborhood. These modes of resistance are visible and forthright, as wheat pasted posters or painted murals on buildings where residents are resisting displacement. Others are perhaps less obvious, such as a street vendor continuing to sell their goods even after the buildings they share the sidewalk with have been whitewashed. Juaricuas continue to insist on the right to remain in their neighborhood, in their homes, on their terms. <em> La lucha sigue. </em>',
+            description: 'Although the municipal government’s recent policies signal a desire to slow the growth of Airbnb, it is unclear how successful they will be, and how well (if at all) the new rules will be enforced. Digital nomads continue to take selfies on Mexico City’s streets, and gentrification continues to shape the cultural and economic landscape. However, residents in neighborhoods like La Juárez are not accepting these changes as inevitable. <br> <br> Blanqueamiento por despojo and gentrification are ongoing, and are rooted in longer histories of dispossession in Mexico City. Yet Juaricuas are not deterred - they continue to practice everyday and creative forms of resistance to Airbnb and other forms of capitalist speculation in their neighborhood. These modes of resistance are visible and forthright, as wheat pasted posters or painted murals on buildings where residents are resisting displacement. Others are perhaps less obvious, such as a street vendor continuing to sell their goods even after the buildings they share the sidewalk with have been whitewashed. Juaricuas continue to insist on the right to remain in their neighborhood, in their homes, on their terms. <em> El barrio es de quien lo trabaja. La lucha sigue. </em>',
             
             location: {
                 center: [-99.14960, 19.40666],
