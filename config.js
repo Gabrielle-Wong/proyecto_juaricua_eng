@@ -16,9 +16,9 @@ var config = {
 
    // Story Details
     title: '¡FUERA AIRBNB!',
-    subtitle: "Gentrification in Mexico City Since the Pandemic",
+    subtitle: "The Role of Short-term Rentals in Housing Dispossession & Displacement in Mexico City, 2019-2024",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua: A Housing Justice Lab | January 12, 2025',
+    byline: 'A mapping project from <em> Proyecto Juaricua </em>, in collaboration with 06600 Observatorio Vecinal de la Colonia Juarez | January 12, 2025',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. <br>  Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio.',
     
     // Chapter Details
@@ -32,9 +32,9 @@ var config = {
             // title: 'Introduction',
             
             
-            description: '<em> For an optimal experience, please view this story on desktop. </em> <br> <br> Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Tourists are not only visiting for a week-long vacation - since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City to stay for extended periods of time. ',
-            image: './images/intro_image_v3.png',
-            imageCaption: "ANDREA TO TRANSLATE <br> <br> Left: Your tourism displaces families. <br> Right: It is said that a long, long time ago (before Airbnb), there was real life in this building.",
+            description: '<em> For best results, please view this story on desktop. </em> <br> <br> Mexico City has long been a tourist destination, yet in recent years tourism has looked different here. Tourists are not only visiting for a week-long vacation - since the COVID-19 pandemic, as companies worldwide have increasingly offered remote work opportunities to their employees, there has been a dramatic increase in foreign remote workers moving to Mexico City to stay for extended periods of time. ',
+            image: './images/intro_image_v4.jpg',
+            imageCaption: "It is said that a long, long time ago (before Airbnb), there was real life in this building.",
             location: {
                 center: [-99.40935, 19.35071],
                 zoom: 9.25,
@@ -123,7 +123,7 @@ var config = {
             id: 'digital_nomads',
             alignment: 'center',
             hidden: false,
-            // title: 'Introduction',
+            title: 'Digital Nomads & \'Gringificacion\'',
             // image: './images/tulum_beach.jpg',
             
             description: 'These predominantly North American workers, or ‘digital nomads’, began to turn their eye to Mexico City around 2021, when influencer content on moving to Mexico City began blowing up online. These ‘digital nomad influencers’ have no doubt played a role in drawing the public’s attention to Mexico City, noting the city’s “vibrant culture, affordable cost of living, and a variety of coworking spaces” as major draws [1].',
@@ -1680,7 +1680,7 @@ var config = {
             id: 'napoles35_londres49_4',
             alignment: 'left',
             hidden: false,
-            // title: '',
+           
             // imageBeforeDescription: "./images/juarez_skyline.png",
             image: './images/pandora.jpg',
             imageCaption: 'Londres 49 & Nápoles 35 after renovation.',
@@ -1778,7 +1778,7 @@ var config = {
             id: 'neighbourhood_impact',
             alignment: 'center',
             hidden: false,
-            title: '',
+            title: 'Blanquemiento por Despojo',
         
             image: './images/pandora_streetscape.jpg',
             description:'As these maps and personal testimonies illustrate, Airbnb has had a tremendous impact on the daily lives of Mexico City residents in the city’s central core. In the case of Airbnb redevelopments like Dinamarca 77 and Pandora, tenants\' lives are upended, first through the trauma of the violent evictions they were forced to experience, and then by the difficulty residents often have in finding housing in their budget in the neighborhood. This is also due in part to how the increase in Airbnb units drives up local rent prices, taking housing off the market and turning them into short-term rentals with inflated nightly costs. <br> <br> The increase in Airbnb units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists [3]. This is very blatantly observed in the Colonia Juárez. The emergence of Airbn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to Airbnb units also displaced an economical restaurant and a corner store at the street level, transforming these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of former eras of Mexico’s elite. Organizers with 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez call this <em> blanqueamiento por despojo </em> - whitening by dispossession [4]. Whitening, here, refers to not only the literal whitewashing of the buildings after tenants are dispossessed, painted over in bland ‘neutral’ color schemes, but also the ways that housing dispossession is not only an economic but a racialized process. Other instances of mass eviction in the Colonia Juárez, such as the expulsion of 20 Indigenous Mazahua families from Turín 46 in October 2021, illustrate how these instances of violent eviction are normalized for lives deemed less valuable within broader processes of racialization and territoriality in Mexico [5].  As low-income Mexican tenants are pushed out to create locales for foreign and national elites, the Colonia Juarez becomes effectively reinscribed as an exclusive, whitened space that has a visceral impact on remaining tenants’ day to day lives.',
