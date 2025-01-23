@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "The Role of Short-term Rentals in Housing Dispossession & Displacement in Mexico City, 2019-2024",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua, in collaboration with 06600 Observatorio Vecinal de la Colonia Juarez | January 12, 2025',
+    byline: 'A mapping project from Proyecto Juaricua, in collaboration with 06600 Observatorio Vecinal de la Colonia Juarez | January 22, 2025',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. <br>  Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio.',
     
     // Chapter Details
@@ -126,7 +126,7 @@ var config = {
             title: 'Digital Nomads & \'Gringificacion\'',
             // image: './images/tulum_beach.jpg',
             
-            description: 'These predominantly North American workers, or ‘digital nomads’, began to turn their eye to Mexico City around 2021, when influencer content on moving to Mexico City began blowing up online. These ‘digital nomad influencers’ have no doubt played a role in drawing the public’s attention to Mexico City, noting the city’s “vibrant culture, affordable cost of living, and a variety of coworking spaces” as major draws [1].',
+            description: 'These predominantly North American workers, or ‘digital nomads’, began to turn their eye to Mexico City around 2021, when influencer content on moving to Mexico City began blowing up online. These ‘digital nomad influencers’ have no doubt played a role in drawing the public’s attention to Mexico City, noting the city’s “vibrant culture, affordable cost of living, and a variety of coworking spaces” as major draws [1]. ',
             image: './images/digital_nomads.png',
             imageCaption: 'Influencer content on YouTube, Instagram, TikTok, and other social platforms portray Mexico City as a desirable and affordable location for digital nomads.', 
             location: {
@@ -412,7 +412,7 @@ var config = {
             hidden: false,
             title: 'The Growth of Mega-Hosts',
             // image: './images/tulum_beach.jpg',
-            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. The maps below illustrate the increase in the number of Airbnb units between 2019 and 2024, and in particular how these units are increasingly owned by mega-hosts.',
+            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. These ‘multi-unit’ hosts have been the primary drivers of increases in listings in Mexico City. Between April 2019 and September 2024, while the number of listings from single-unit hosts decreased from 9,749 to 8,440, the number of listings from multi-unit hosts ballooned 67% from 10,819 to 18,142. <br> <br> The maps below illustrate the increase in the number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by mega-hosts. ',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -704,7 +704,7 @@ var config = {
             hidden: false,
             title: 'Mega-Landlords',
             // image: './images/tulum_beach.jpg',
-            description: 'A few mega-hosts have emerged in this period that have come to manage over 1,500 units in total as of 2024. Two mega-hosts stand out due to the sheer number of units they manage: Mr. W and Virtual Homes. <br> <br> These two, along with several other mega hosts, often manage entire apartment buildings of Airbnb units. This phenomenon raises the questions: <br> <br> <b> Who lived in these buildings prior to them becoming Airbnbs, and what impact has Airbnb had on the surrounding neighborhood? </b>',
+            description: 'A few mega-hosts have emerged in this period that have come to manage over 1,500 units in total as of 2024. Two mega-hosts stand out due to the sheer number of units they manage: Mr. W and Virtual Homes [2]. <br> <br> These two, along with several other mega hosts, often manage entire apartment buildings of Airbnb units. This phenomenon raises the questions: <br> <br> <b> Who lived in these buildings prior to them becoming Airbnbs, and what impact has Airbnb had on the surrounding neighborhood? </b>',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -1302,7 +1302,7 @@ var config = {
             title: 'Dinamarca 77',
             image: './images/dinamarca.jpg',
             imageCaption: 'Dinamarca 77 in 2024.', 
-            description: 'Dinamarca 77 is one building in la Colonia Juárez where the effects of the capitalist real estate market are evident. 12 families are estimated to have been forcefully evicted in April 2018.  This building opened as 11 AirBnb units in October 2023. They are owned by Mr.W, the mega-host that rents the most short term rental units on Airbnb’s platform in Mexico City. <br> <br> Mr. W was established in 2017 by brothers Luís Carlos Weber Zetina and Carlos Enrique Weber Zetina. Until 2019, their presence in Cuauhtémoc was relatively small (< 50 units), but they have since grown to host over 350 units in Cuauhtémoc. The company does not directly own these units. Rather, they are property managers that serve as an intermediary between property owners and potential guests, handling advertising and guest communication in exchange for a portion of the rental income. A spokesperson for the company estimates Airbnb could earn a landlord 30-40% more income from their unit compared to traditional rentals [2]. This is a clear incentive for landlords to evict families and turn the keys over to managers like Mr. W.',
+            description: 'Dinamarca 77 is one building in  Colonia Juárez where the effects of the capitalist real estate market are evident. 12 families are estimated to have been forcefully evicted in April 2018.  This building opened as 11 AirBnb units in October 2023. They are owned by Mr.W, the mega-host that owns the most units in Mexico City. <br> <br>Mr. W was established in 2017 by brothers Luís Carlos Weber Zetina and Carlos Enrique Weber Zetina. Until 2019, their presence in Cuauhtémoc was relatively small (< 50 units), but they have since grown to host over 350 units in Cuauhtémoc. The company does not directly own these units. Rather, they are property managers that serve as an intermediary between property owners and potential guests, handling advertising and guest communication in exchange for a portion of the rental income. A spokesperson for the company estimates Airbnb could earn a landlord 30-40% more income from their unit compared to traditional rentals [3]. This is a clear incentive for landlords to evict families and turn the keys over to managers like Mr. W. ',
             
             location: {
                 center: [-99.15789, 19.42543],
@@ -1399,7 +1399,7 @@ var config = {
             title: 'Londres 49 & Nápoles 35',
             // imageBeforeDescription: "./images/juarez_skyline.png",
            
-            description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were also sites of forced eviction:  we estimate that 18 families were forcefully evicted from the two buildings in December 2020. Community activists of the 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez recorded testimonies with tenants not long after they were forcibly evicted from the building, recounting what happened on the day when Nápoles 35 residents were displaced.',
+            description: 'Two other buildings in Colonia Juarez, Nápoles 35 and Londres 49, were also sites of forced eviction:  we estimate that 18 families were forcefully evicted from the two buildings in December 2020. Community activists of the 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez recorded testimonies with tenants not long after they were forcibly evicted from the building, recounting what happened on the day when Nápoles 35 residents were displaced.  ',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
@@ -1684,7 +1684,7 @@ var config = {
             // imageBeforeDescription: "./images/juarez_skyline.png",
             image: './images/pandora.jpg',
             imageCaption: 'Londres 49 & Nápoles 35 after renovation.',
-            description: 'As these tenants describe, their forceful eviction from the buildings occurred without prior notice - they had no time to prepare or to make alternative accommodations. Their belongings were thrown into the street and/or stolen, and they had to build their lives anew. Senior and disabled tenants were left with nowhere to go and no resources offered to help them transition to other housing options. The tenant quoted above had been living in Nápoles 35 for 35 years, and in an instant their life was forever changed. Most tenants in these buildings could not afford to stay in the Colonia Juárez, and organizers with 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez have lost contact with many.<br><br> Following these December 2020 evictions, developers dramatically renovated these two buildings, and in October 2023, this Virtual Homes-managed building, renamed <em> Pandora</em>, opened for business. Advertising 40 Airbnb units, Pandora has not only fueled the eviction of these 18 families in the middle of a pandemic, but it has also dramatically altered the landscape of the surrounding neighborhood.',
+            description: 'These tenants’ forceful eviction from the buildings occurred without prior notice - they had no time to prepare or to make alternative accommodations. Their belongings were thrown into the street and/or stolen, and they had to build their lives anew. Senior and disabled tenants were left with nowhere to go and no resources offered to help them transition to other housing options. The tenant quoted above had been living in Nápoles 35 for 35 years, and in an instant their life was forever changed. Most tenants in these buildings could not afford to stay in Colonia Juárez, and organizers with 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez have lost contact with many. <br> <br> Following these December 2020 evictions, developers dramatically renovated these two buildings, and in October 2023, this Virtual Homes-managed building, renamed <em> Pandora </em>, opened for business. Advertising 40 Airbnb units, Pandora has not only fueled the eviction of these 18 families in the middle of a pandemic, but it has also drastically altered the landscape of the surrounding neighborhood. ',
             location: {
                 center: [-99.16067, 19.42710],
                 zoom: 18.5,
@@ -1774,6 +1774,99 @@ var config = {
         },
 
         {
+            // 10.1: Neighbourhood Impact - Rent
+            id: 'neighbourhood_impact_rent',
+            alignment: 'center',
+            hidden: false,
+            // title: '',
+        
+            image: './images/rent_graph.png',
+            description:'As these maps and personal testimonies illustrate, Airbnb has had a tremendous impact on the daily lives of Mexico City residents in the city’s central core. In the case of Airbnb redevelopments like Dinamarca 77 and Pandora, tenants\' lives are upended, first through the trauma of the violent evictions they were forced to experience, and then by the difficulty residents often have in finding housing in their budget in the neighborhood. <br> <br> Available data [4] on average rents in Colonia Juárez show that rent increased at a faster rate compared to Mexico City as a whole, particularly during the period Airbnb listings were rapidly being added to the market. We observe this especially in 2022 as global tourism ‘bounced back’ following international travel restrictions of the COVID-19 era. This increase could be due in part to Airbnb taking housing off the local market and turning them into short-term rentals with inflated nightly costs. This graph also reveals how it is important to look to the neighborhood scale to determine Airbnb’s impact on rental prices - Mexico City is too vast to use city-wide rental data to reflect Airbnb’s impact. Other neighbourhoods with high numbers of Airbnb listings show similar patterns. ',
+            
+            location: {
+                center: [-99.17276, 19.42655],
+                zoom: 13.75,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep24_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'sep24_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'sep24',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
+            ],
+            onChapterExit: [
+              
+                
+            ]
+            
+        },
+
+        {
             // 10: Neighbourhood Impact
             id: 'neighbourhood_impact',
             alignment: 'center',
@@ -1781,7 +1874,7 @@ var config = {
             title: 'Blanquemiento por Despojo',
         
             image: './images/pandora_streetscape.jpg',
-            description:'As these maps and personal testimonies illustrate, Airbnb has had a tremendous impact on the daily lives of Mexico City residents in the city’s central core. In the case of Airbnb redevelopments like Dinamarca 77 and Pandora, tenants\' lives are upended, first through the trauma of the violent evictions they were forced to experience, and then by the difficulty residents often have in finding housing in their budget in the neighborhood. This is also due in part to how the increase in Airbnb units drives up local rent prices, taking housing off the market and turning them into short-term rentals with inflated nightly costs. <br> <br> The increase in Airbnb units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists [3]. This is very blatantly observed in the Colonia Juárez. The emergence of Airbn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to Airbnb units also displaced an economical restaurant and a corner store at the street level, transforming these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of former eras of Mexico’s elite. Organizers with 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez call this <em> blanqueamiento por despojo </em> - whitening by dispossession [4]. Whitening, here, refers to not only the literal whitewashing of the buildings after tenants are dispossessed, painted over in bland ‘neutral’ color schemes, but also the ways that housing dispossession is not only an economic but a racialized process. Other instances of mass eviction in the Colonia Juárez, such as the expulsion of 20 Indigenous Mazahua families from Turín 46 in October 2021, illustrate how these instances of violent eviction are normalized for lives deemed less valuable within broader processes of racialization and territoriality in Mexico [5].  As low-income Mexican tenants are pushed out to create locales for foreign and national elites, the Colonia Juarez becomes effectively reinscribed as an exclusive, whitened space that has a visceral impact on remaining tenants’ day to day lives.',
+            description:'The increase in Airbnb units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists [5]. This is very blatantly observed in Colonia Juárez. The emergence of Airbn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to Airbnb units also displaced an economical restaurant and a corner store at the street level, transforming these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of former eras of Mexico’s elite. Organizers with 06600 Plataforma Vecinal y Observatorio de la Colonia Juárez call this blanqueamiento por despojo - whitening by dispossession [6]. Whitening, here, refers to not only the literal whitewashing of the buildings after tenants are dispossessed, painted over in bland ‘neutral’ color schemes, but also the ways that housing dispossession is not only an economic but a racialized process. <br> <br> Other instances of mass eviction in Colonia Juárez, such as the expulsion of 20 Indigenous Mazahua families from Turín 46 in October 2021, illustrate how these instances of violent eviction are normalized for lives deemed less valuable within broader processes of racialization and territoriality in Mexico [7].  As low-income Mexican tenants are pushed out to create locales for foreign and national elites, Colonia Juarez becomes effectively reinscribed as an exclusive, whitened space that has a visceral impact on remaining tenants’ day to day lives.',
             
             location: {
                 center: [-99.17276, 19.42655],
@@ -1873,8 +1966,8 @@ var config = {
             hidden: false,
             title: 'Policy Shifts in Mexico City',
             image: './images/digital_nomad_announcement.jpg',
-            imageCaption: 'Screenshot taken from the Government of Mexico City’s social media advertising their support for remote workers. <br> <br> ANDREA TO TRANSLATE',
-            description: 'The growth of Airbnb and its impacts on local populations are not natural nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would be partnered with Airbnb and Mexico City explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” [6]. While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since backtracked in its welcome of digital nomads. <br> <br> On April 4, 2024 the government of Mexico City decided to implement new regulations regarding Airbnb and other short-term rental platforms, in an attempt to slow gentrification. The new regulations aim to create a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit. Hosts will also need to present an occupation report and change land usage if they have more than 3 properties [7]. <br> <br> On September 21, 2024, Mexico City’s municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods. Additionally, the government will prohibit short term rentals from being located in social, popular and rebuilt housing. <br> <br> Mexico City’s municipal policy is not enough to stop gentrification or minimize the impact it has in neighborhoods like Júarez, Roma and Condesa. We also need to talk about who are the users of short-term housing, and what can be done to regulate the touristification of Mexico City. When talking about gentrification, we cannot put the blame only on Airbnb as a business itself;  the people who use the platform and those who permitted and have profited from Airbnb’s exponential growth also need to be implicated. ',
+            imageCaption: 'Screenshot taken from the Government of Mexico City’s social media advertising their support for remote workers. <br> <br> Digital Nomads in México City. Remote work generates a transversal impact in society, from human resources and different sectors of our economy. In the #PressConference, of #MexicoCityMayor it was stated that the alliance between @GobCDMX, @airbnb_mx and @UNESCOMexico will help creative tourism thay will include the inhabitants of Mexico City as it will generate new jobs and will jump start the local economy.',
+            description: 'The growth of Airbnb and its impacts on local populations are not natural nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would partner with Mexico City’s government explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” [8]). While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since shifted its opinion of digital nomads - at least in its treatment of their short-term housing rentals. <br> <br> In 2024 the government of Mexico City implemented new regulations regarding Airbnb and other short-term rental platforms, calling for the creation of a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit [9]. In September 2024, the municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods.  <br> <br> In response to these regulations, Airbnb itself has funded local campaigns and reports that portray Airbnb hosts as “mom and pop” businesses whose rental units are benefiting local economies and sustaining their livelihoods. Yet as our research shows, the marked increase in Airbnb units since 2022 are not “mom and pop” owners - they are mega-landlords whose presence has driven up the cost of rent in Colonia Juarez and in other neighborhoods with a large Airbnb presence. ',
             
             location: {
                 center: [-99.14960, 19.40666],
@@ -1967,7 +2060,7 @@ var config = {
             image: './images/proptech.png',
             imageCaption: 'A professional industry of real estate platforms and technologies have emerged around property markets in Latin America, including many that cater specifically to short-term rental.',
             // image: './images/tulum_beach.jpg',
-            description: 'The companies that own and/or manage buildings like Dinamarca 77 and Pandora purchase them because they see these buildings not as homes, as the tenants who were evicted did, but as a method of profiteering. This is known as the financialization of housing - the treatment of housing as a financial asset by investors rather than as a human right [8].  <br> <br> Although the financialization of housing is not new, its impacts have been magnified through digital platforms and tools. Smartphones and apps (and the data and analytical capabilities they enable) allow investors to manage large and increasingly complex property portfolios [9]. They enable financialization at greater speeds, broader scales, and with increased profit potential.  <br> <br> Short-term rental platforms like Airbnb create opportunities for a new kind of financialization.  They cater to a growing class of mobile, relatively wealthy remote workers (and tourists) who can afford to pay far higher rents than locals. Furthermore, by sidestepping long-term tenant regulations and protections, Airbnb gives hosts much more flexibility and control over their properties [10].  For prospective investors like Mr W and Virtual Homes, the revenue potential is too great to ignore.  <br> <br> This phenomenon is not unique to Mexico City [11].  A professional industry of property managers, landlords, and real estate platforms has emerged in tandem with Airbnb in cities across the world. The boutiques and facades of CDMX are a local expression of a global system that values capital investments and profit over human lives and community cohesion. ',
+            description: 'The companies that own and/or manage buildings like Dinamarca 77 and Pandora purchase them because they see these buildings not as homes, as the tenants who were evicted did, but as properties from which they can turn a profit. This phenomenon is known as the financialization of housing - the treatment of housing as a financial asset by investors rather than as a human right [10]. <br> <br> Although the financialization of housing is not new, its impacts have been magnified through digital platforms and tools. Smartphones and apps (and the data and analytical capabilities they enable) allow investors to manage large and increasingly complex property portfolios [11]. They enable financialization at greater speeds, broader scales, and with increased profit potential. <br. <br>Short-term rental platforms like Airbnb create opportunities for a new kind of financialization.  They cater to a growing class of mobile, relatively wealthy remote workers (and foreign tourists) who can afford to pay far higher rents than locals. Furthermore, by sidestepping long-term tenant regulations and protections, Airbnb gives hosts much more flexibility and control over their properties [12].  For prospective investors like Mr W and Virtual Homes, the revenue potential is too great to ignore.  <br> <br> This phenomenon is not unique to Mexico City [13].  A professional industry of property managers, landlords, and real estate platforms has emerged in tandem with Airbnb in cities across the world. The boutiques and facades of CDMX are a local expression of a global system that values capital investments and profit over human lives and community cohesion.',
             
             location: {
                 center: [-99.14960, 19.40666],
@@ -2060,7 +2153,7 @@ var config = {
             image: './images/juarez_conclusion.png',
             imageCaption: 'Murals like these are one way organizers in la Colonia Juárez resist blanqueamiento por despojo and make their claims to the neighbourhood visible.',
             // image: './images/tulum_beach.jpg',
-            description: 'Although the municipal government’s recent policies signal a desire to slow the growth of Airbnb, it is unclear how successful they will be, and how well (if at all) the new rules will be enforced. Digital nomads continue to take selfies on Mexico City’s streets, and gentrification continues to shape the cultural and economic landscape. However, residents in neighborhoods like La Juárez are not accepting these changes as inevitable. <br> <br> Blanqueamiento por despojo and gentrification are ongoing, and are rooted in longer histories of dispossession in Mexico City. Yet Juaricuas are not deterred - they continue to practice everyday and creative forms of resistance to Airbnb and other forms of capitalist speculation in their neighborhood. These modes of resistance are visible and forthright, as wheat pasted posters or painted murals on buildings where residents are resisting displacement. Others are perhaps less obvious, such as a street vendor continuing to sell their goods even after the buildings they share the sidewalk with have been whitewashed. Juaricuas continue to insist on the right to remain in their neighborhood, in their homes, on their terms. <em> El barrio es de quien lo trabaja. La lucha sigue. </em>',
+            description: 'Although the municipal government’s recent policies signal a desire to slow the growth of Airbnb, it is unclear how successful they will be, and how well the new rules will be enforced. Available data from 2024 suggests that the number of Airbnb listings in Alcaldía Cuauhtémoc has remained relatively steady throughout the year. Although the striking increases in listings observed in 2022-2023 have slowed, the thousands of Airbnb units established during these years remain. Digital nomads continue to take selfies on Mexico City’s streets, and gentrification continues to shape the cultural and economic landscape. <br> <br> However, residents in neighborhoods like La Juárez are not accepting these changes as inevitable. Blanqueamiento por despojo and gentrification are ongoing, and are rooted in longer histories of dispossession in Mexico City. Yet Juaricuas are not deterred - they continue to practice everyday and creative forms of resistance to Airbnb and other forms of capitalist speculation in their neighborhood. These modes of resistance are visible and forthright, as wheat pasted posters or painted murals on buildings where residents are resisting displacement. Others are perhaps less obvious, such as a street vendor continuing to sell their goods even after the buildings they share the sidewalk with have been whitewashed. Juaricuas continue to insist on the right to remain in their neighborhood, in their homes, on their terms. <em> El barrio es de quien lo trabaja. La lucha sigue. </em>',
             
             location: {
                 center: [-99.14960, 19.40666],
@@ -2153,7 +2246,7 @@ var config = {
             title: '',
             // image: './images/tulum_beach.jpg',
             // description: 'Text for the chapter',
-            description: "add acknowledgements here.",
+            description: "<strong> Margaret Marietta Ramírez </strong>, PhD, is the Associate Director of Chicana/o-Latina/o Studies at Stanford University, and an Adjunct Professor of Geography at Simon Fraser University. MMR is a scholar of urban and cultural geography with over a decade of experience researching the impacts of gentrification on low-income and historically disinvested communities in the San Francisco Bay Area. Her writings on gentrification, housing justice and social movements have been published in <em> Environment & Planning D, Urban Geography, IJURR Online, </em> and <em> Antipode </em>, and she is a co-editor of the Anti-Eviction Mapping Project’s (2021) collection <em> Counterpoints: A Bay Area Atlas of Displacement and Resistance </em>. Lastly, she spent her childhood summers wandering Mexico City while visiting family; she has always felt a strong connection and love for the city and her kin here. <br> <br> <strong> Gabrielle Wong </strong> is an undergraduate at Simon Fraser University. She will graduate with a BA in human geography, social data analytics (minor), and urban studies (certificate) in June 2025. This project has allowed them to see the liveliness, creativity, and resilience of Mexico City's residents and neighbourhoods in the face of displacement. <br> <br> <strong> Mónica Andrea Mendoza López </strong> is an undergraduate student at Simon Fraser University currently working on her BA in Human Geography, a minor in Geographic Information Science and an Urban Studies Certificate. Born and raised in Mexico City, this project has given a new meaning to the streets where she grew up. <br> <br> <strong> Sergio González </strong> <br> <br> <br> This research was funded by a Social Science & Humanities Research Council (SSHRC) Insight Development Research Grant. ",
             location: {
                 center: [-99.12574, 19.39614],
                 zoom: 10.00,
