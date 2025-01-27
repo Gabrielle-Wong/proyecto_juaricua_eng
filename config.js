@@ -16,7 +16,7 @@ var config = {
 
    // Story Details
     title: '¡FUERA AIRBNB!',
-    subtitle: "The Role of Short-term Rentals in Housing Dispossession & Displacement in Mexico City, 2019-2024",
+    subtitle: "How short-term rentals have fueled dispossession & displacement in Mexico City",
     // subtitle: 'subtitle, if desired',
     byline: 'A mapping project from Proyecto Juaricua, in collaboration with 06600 Observatorio Vecinal de la Colonia Juarez | January 26, 2025',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. <br>  Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio.',
