@@ -1495,9 +1495,9 @@ var config = {
             title: 'As one tenant described,',
             // imageBeforeDescription: "./images/juarez_skyline.png",
             audio: "./media/testimonio_1.mp3",
-            audioCaption: "The above quote is a condensed version of what the tenant recounted on the day of the eviction (recording in Spanish only).",
+            audioCaption: "The above quote is a condensed version of what the tenant recounted on Dec 4, 2020 (recording in Spanish only).",
             image: './images/eviction_1.png',
-            imageCaption: 'Screenshot from a video taken by 06600 Plataforma organisers documenting the day of the eviction.',
+            imageCaption: 'Screenshot from a video taken by 06600 Plataforma organisers documenting the eviction on December 4, 2020.',
         
             description: '<em>"They came to force us out without prior notice. There wasn’t any type of notification or prior document letting us know beforehand…They threw all of our belongings to the street, and what remained inside was stolen…There were many riot police officers, and other people they brought with them. The people that accompanied them were the ones taking stuff out, and the police retreated fairly quickly…After a while someone whistled and then they all left, but later they returned and started destroying and stealing things"</em>',
             location: {
@@ -1589,9 +1589,9 @@ var config = {
             title: 'Another tenant recounted,',
             // imageBeforeDescription: "./images/juarez_skyline.png",
             audio: "./media/testimonio_2.mp3",
-            audioCaption: "The above quote is a condensed version of what the tenant recounted on the day of the eviction (recording in Spanish only).",
+            audioCaption: "The above quote is a condensed version of what the tenant recounted on Dec 4, 2020 (recording in Spanish only).",
             image: './images/eviction_2.png',
-            imageCaption: 'Screenshot from a video taken by 06600 Plataforma organisers documenting the day of the eviction.',
+            imageCaption: 'Screenshot from a video taken by 06600 Plataforma organisers documenting the eviction on December 4, 2020.',
             description: '<em>“I’ve lived here for 35 years, in Nápoles 35…Today we were evicted arbitrarily. We never received a notification, an opportunity to defend ourselves from this brutality. It is criminal…I do not have a place to go here in Mexico City, a place to live, I don’t have where to go after this…maybe I could ask my son to stay with him, but it is outside Mexico City. I am a diabetic. I am a Senior. I have a disability, but they didn\'t care. There were residents here with similar conditions, a blind person, a person with Alzheimers… Now, we are in the midst of a pandemic. <strong>What does it mean to you to be left houseless during the COVID-19 pandemic?</strong>”</em>',
             location: {
                 center: [-99.16067, 19.42710],

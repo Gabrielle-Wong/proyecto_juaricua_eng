@@ -483,6 +483,7 @@
                 var audio = document.createElement('audio');
                 audio.src = record.audio;
                 audio.controls = true; // Add controls for play/pause etc.
+                audio.setAttribute('controlsList', 'nodownload');
                 chapter.appendChild(audio);
             }
 
