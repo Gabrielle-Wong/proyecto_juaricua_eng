@@ -479,6 +479,18 @@
                 gifAfter.src = record.gifAfter;
                 chapter.appendChild(gifAfter);
             }
+            if (record.audio) {
+                var audio = document.createElement('audio');
+                audio.src = record.audio;
+                audio.controls = true; // Add controls for play/pause etc.
+                chapter.appendChild(audio);
+            }
+
+            if (record.audioCaption) {
+                audioCaption = document.createElement('p');
+                audioCaption.innerHTML = '<em>' + record.audioCaption + '</em>';
+                chapter.appendChild(audioCaption);
+            }
 
             if (record.image) {
                 var image = new Image();
@@ -507,18 +519,7 @@
                 chapter.appendChild(videoCaption);
             }
 
-            if (record.audio) {
-                var audio = document.createElement('audio');
-                audio.src = record.audio;
-                audio.controls = true; // Add controls for play/pause etc.
-                chapter.appendChild(audio);
-            }
-
-            if (record.audioCaption) {
-                audioCaption = document.createElement('p');
-                audioCaption.innerHTML = '<em>' + record.audioCaption + '</em>';
-                chapter.appendChild(audioCaption);
-            }
+            
 
 
 
