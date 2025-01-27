@@ -94,6 +94,17 @@
             padding: 1vh 1vw;
             text-align: center;
         }
+
+        #header h5 {
+            font-weight: 300;
+            font-size: 1.25em;
+            font-family: 'Oswald'; 
+            font-style: italic;
+            margin: 0;
+            padding: 1vh 1vw;
+            text-align: center;
+        }
+
         #story h3 {
             font-family: 'Oswald', sans-serif;
             font-size: 3em;
@@ -402,6 +413,13 @@
             bylineText.innerText = config.byline;
             header.appendChild(bylineText);
         }
+
+        if (config.littleByline) {
+            var littleByline = document.createElement('h5');
+            littleByline.innerText = config.littleByline;
+            header.appendChild(littleByline);
+        }
+
 
         if (header.innerText.length > 0) {
             header.classList.add(config.theme);
