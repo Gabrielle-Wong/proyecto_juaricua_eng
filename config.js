@@ -219,7 +219,7 @@ var config = {
             title: 'Airbnb Listings in Alcaldía Cuauhtémoc',
             
             description: 'Around the time this influencer content begins to run rampant on social media, we observe a dramatic increase in the number of short term rentals, particularly Airbnbs, listed in the central core of Mexico City. While the Roma and Condesa neighborhoods were already hotbeds for Airbnb units prior to the pandemic, the number of Airbnb units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, increased by a whopping 71% between 2019 and 2024.',
-            legend: '<em>Airbnb units in Cuauhtémoc, September 2024. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2024. <br> <br> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em>Airbnb units in Cuauhtémoc, September 2024. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2024. <br> <br> This map is interactive. You can zoom and pan. </em>',
             // image: './images/airbnb_points.png',
 
 
@@ -504,7 +504,7 @@ var config = {
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
             // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
-            legend: '<em> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em> This map is interactive. You can zoom and pan. </em>',
             location: {
                 center: [-99.18165, 19.42285],
                 zoom: 13.5,
@@ -604,7 +604,7 @@ var config = {
             hidden: false,
             title: "Mega Host Airbnb listings in September 2024",
             image: './images/number_of_units_owned_legend.png',
-            legend: '<em> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em> This map is interactive. You can zoom and pan. </em>',
 
             location: {
                 center: [-99.18165, 19.42285],
@@ -806,7 +806,7 @@ var config = {
             hidden: false,
             title: 'Mega-Landlords: September 2019',
             image: "./images/megalandlord_legend.png",
-            legend: '<em> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em> This map is interactive. You can zoom and pan. </em>',
             location: {
                 center: [-99.18165, 19.42285],
                 zoom: 13.5,
@@ -910,7 +910,7 @@ var config = {
             hidden: false,
             title: 'Mega-Landlords: September 2024',
             image: "./images/megalandlord_legend.png",
-            legend: '<em> This map is interactive! You can zoom and pan. </em>',
+            legend: '<em> This map is interactive. You can zoom and pan. </em>',
             location: {
                 center: [-99.18165, 19.42285],
                 zoom: 13.5,
