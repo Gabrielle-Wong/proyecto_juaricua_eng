@@ -18,7 +18,7 @@ var config = {
     title: '¡FUERA AIRBNB!',
     subtitle: "How short-term rentals have fueled dispossession & displacement in Mexico City",
     // subtitle: 'subtitle, if desired',
-    byline: 'A mapping project from Proyecto Juaricua, in collaboration with [06600] Observatorio Vecinal de la Colonia Juarez',
+    byline: 'A mapping project from Proyecto Juaricua, in collaboration with [06600] Observatorio Vecinal de la Colonia Juárez',
     littleByline: 'For best results, please view this story on desktop.',
     footer: 'Created using the <a href="https://github.com/mapbox/storytelling" style="color:#ffffff;" target="_blank">Mapbox Storytelling</a> template. <br>  Thank you to the <a href="https://antievictionmap.com/" style="color:#ffffff;" target="_blank">Anti-Eviction Mapping Project</a> for providing us with access to Mapbox Studio. <br> <br> Published in 2025',
     
@@ -219,7 +219,7 @@ var config = {
             title: 'Airbnb Listings in Alcaldía Cuauhtémoc',
             
             description: 'Around the time this influencer content begins to run rampant on social media, we observe a dramatic increase in the number of short term rentals, particularly Airbnbs, listed in the central core of Mexico City. While the Roma and Condesa neighborhoods were already hotbeds for Airbnb units prior to the pandemic, the number of Airbnb units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, increased by a whopping 71% between 2019 and 2024.',
-            legend: '<em>Airbnb units in Cuauhtémoc, September 2024. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2024. <br> <br> This map is interactive. You can zoom and pan. </em>',
+            legend: '<em>Airbnb units in Alcaldía Cuauhtémoc, September 2024. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2024. <br> <br> This map is interactive. You can zoom and pan. </em>',
             // image: './images/airbnb_points.png',
 
 

@@ -401,6 +401,7 @@
             image.src = config.logo;
             header.appendChild(image);
         }
+        
 
         if (config.subtitle) {
             var subtitleText = document.createElement('h2');
@@ -514,8 +515,48 @@
             if (record.image) {
                 var image = new Image();
                 image.src = record.image;
+                image.style.cursor = 'pointer';
+
+                    // Add a click event listener to open the image in a lightbox
+                image.addEventListener('click', function () {
+                    openLightbox(image.src);
+                });
+
+                // Append the image to the chapter container
                 chapter.appendChild(image);
             }
+                    // Simple lightbox implementation
+                    function openLightbox(src) {
+                        var lightboxOverlay = document.createElement('div');
+                        lightboxOverlay.style.position = 'fixed';
+                        lightboxOverlay.style.top = '0';
+                        lightboxOverlay.style.left = '0';
+                        lightboxOverlay.style.width = '100%';
+                        lightboxOverlay.style.height = '100%';
+                        lightboxOverlay.style.backgroundColor = 'rgba(0, 0, 0, 0.6)';
+                        lightboxOverlay.style.display = 'flex';
+                        lightboxOverlay.style.alignItems = 'center';
+                        lightboxOverlay.style.justifyContent = 'center';
+                        lightboxOverlay.style.cursor = 'pointer';
+
+                        var lightboxImage = document.createElement('img');
+                        lightboxImage.src = src;
+                        lightboxImage.style.maxWidth = '90%';
+                        lightboxImage.style.maxHeight = '90%';
+                        lightboxImage.style.border = '4px solid #1d2f7e';
+
+                        // Close lightbox when overlay is clicked
+                        lightboxOverlay.addEventListener('click', function () {
+                            document.body.removeChild(lightboxOverlay);
+                        });
+
+                        // Append image to the overlay
+                        lightboxOverlay.appendChild(lightboxImage);
+
+                        // Append overlay to the body
+                        document.body.appendChild(lightboxOverlay);
+                    }
+
 
             if (record.imageCaption) {
                 imageCaption = document.createElement('p');
