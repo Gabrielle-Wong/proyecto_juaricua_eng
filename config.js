@@ -16,7 +16,7 @@ var config = {
 
    // Story Details
     title: 'Lucha por la vivienda',
-    subtitle: "How short-term rentals have fueled displacement in Mexico City",
+    subtitle: "How short-term rentals have fueled dispossession & displacement in Mexico City",
     // subtitle: 'subtitle, if desired',
     byline: 'A mapping project from Proyecto Juaricua, in collaboration with [ 06600 ] Plataforma Observatorio Vecinal de la Colonia Juárez',
     littleByline: 'For best results, please view this story on desktop.',
@@ -125,7 +125,7 @@ var config = {
             title: 'The Influence of Digital Nomads',
             // image: './images/tulum_beach.jpg',
             
-            description: 'These predominantly North American workers, or ‘digital nomads’, began to turn their eye to Mexico City around 2021, when influencer content on moving to Mexico City began blowing up online. These ‘digital nomad influencers’ have no doubt played a role in drawing the public’s attention to Mexico City, noting the city’s “vibrant culture, affordable cost of living, and a variety of coworking spaces” as major draws [1]. ',
+            description: 'These predominantly North American workers, or ‘digital nomads’, began to turn their eye to Mexico City around 2021, when influencer content on moving to Mexico City began blowing up online. These ‘digital nomad influencers’ have no doubt played a role in drawing the public’s attention to Mexico City, noting the city’s “vibrant culture, affordable cost of living, and a variety of coworking spaces” as major draws [1]. The presence of Airbnbs, where many digital nomads will stay for a few months before moving on, also plays a role.',
             image: './images/digital_nomads.png',
             imageCaption: 'Influencer content on YouTube, Instagram, TikTok, and other social platforms portray Mexico City as a desirable and affordable location for digital nomads.', 
             location: {
@@ -218,7 +218,7 @@ var config = {
             hidden: false,
             title: 'Airbnb Listings in Alcaldía Cuauhtémoc',
             
-            description: 'Around the time this influencer content begins to run rampant on social media, we observe a dramatic increase in the number of short term rentals, particularly Airbnbs, listed in the central core of Mexico City. While the Roma and Condesa neighborhoods were already hotbeds for Airbnb units prior to the pandemic, the number of Airbnb units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, increased by a whopping 71% between 2019 and 2024.',
+            description: 'Around the time this influencer content began to run rampant on social media, we observed a dramatic increase in the number of short term rentals, particularly Airbnbs (by far the largest short-term rental platform) listed in the central core of Mexico City. The data showcasing this trend comes from <a href="https://insideairbnb.com/about/" style="color:#ffffff;" target="_blank">Inside Airbnb</a>, a project that scrapes listings regularly from Airbnb’s website to provide data on the platform’s impact in cities. They have data available for Mexico City from 2019-2024. While the Roma and Condesa neighborhoods were already hotbeds for Airbnb units prior to the pandemic, the number of Airbnb units overall in Mexico City’s central core, Alcaldía Cuauhtémoc, increased by a whopping 71% between 2019 and 2024.',
             legend: '<em>Airbnb units in Alcaldía Cuauhtémoc, September 2024. Each pink dot represents one Airbnb unit. Data from Inside Airbnb, 2024. <br> <br> This map is interactive. You can zoom and pan. </em>',
             // image: './images/airbnb_points.png',
 
@@ -703,7 +703,7 @@ var config = {
             hidden: false,
             title: 'And the Emergence of Mega-Landlords',
             // image: './images/tulum_beach.jpg',
-            description: 'A few mega-hosts have emerged in this period that have come to manage over 1,500 units in total as of 2024. Two mega-hosts stand out due to the sheer number of units they manage: Mr. W and Virtual Homes [2]. <br> <br> These two, along with several other mega hosts, often manage entire apartment buildings of Airbnb units. This phenomenon raises the questions: <br> <br> <b> Who lived in these buildings prior to them becoming Airbnbs, and what impact has Airbnb had on the surrounding neighborhood? </b>',
+            description: 'A few mega-hosts have emerged in this period that have come to manage over 1,500 units in total as of 2024. Two mega-hosts stand out due to the sheer number of units they manage: Mr. W and Virtual Homes [2]. <br> <br> These two, along with several other mega-hosts, often manage entire apartment buildings of Airbnb units. This phenomenon raises the questions: <br> <br> <b> Who lived in these buildings prior to them becoming Airbnbs, and what impact has Airbnb had on the surrounding neighborhood? </b>',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -1204,7 +1204,7 @@ var config = {
             title: '[ 06600 ] Plataforma Vecinal y Observatorio de la Colonia Juárez',
             imageCaption: 'One of the logos used by the organization.',
             image: './images/06600.jpg',
-            description: 'Residents of la Colonia Juárez, locally known as Juaricuas, have been actively resisting displacement and the redevelopment of their neighborhood for over a decade. Juaricuas, in this context, refers to the tenants and neighbors of la Colonia Juárez who are fighting for the right to safe, stable, and autonomous housing in their neighborhood. <br> <br> From this group of neighbors, the [ 06600 ] Colonia Juárez Neighborhood Platform and Observatory (06600 being the postal code) emerged in 2014, a space dedicated to defending the neighborhood against developers, and to ensuring the continued presence of its residents. The group is led by residents of La Juárez, organizing around the needs of the community, connecting struggles and proposing solutions in a collaborative, creative, proactive, and collective manner. They focus on sharing and reproducing activist methods to combat <em> Blanqueamiento por despojo</em> (which translates to whitening by dispossession), a term that stems from Juaricua activism, naming this process as similar but not identical to what the west calls \'gentrification\'. <br> <br> The group were key players in organizing against the Chapultepec Cultural Corridor project in 2015, and they also played a major role in the 2019 incorporation of Article 59, which defines the Human Right to Adequate Housing, and Article 60, which addresses the forced displacement of long-established residents, into the Constitutional Law of Human Rights in Mexico City. The group’s efforts focus on averting the displacement of residents and small businesses in the neighborhood, which also fuels the loss of jobs. They seek to counteract and mitigate the effects of the capitalist real estate market on land and territory in Mexico City, which fuel forced displacement and bring higher rental prices to the neighborhood.',
+            description: 'Residents of la Colonia Juárez, locally known as Juaricuas, have been actively resisting displacement and the redevelopment of their neighborhood for over a decade. Juaricuas, in this context, refers to the tenants and neighbors of la Colonia Juárez who are fighting for the right to safe, stable, and autonomous housing in their neighborhood. <br> <br> From this group of neighbors, the [ 06600 ] Colonia Juárez Neighborhood Platform and Observatory (06600 being the postal code) emerged in 2014, a space dedicated to defending the neighborhood against developers, and to ensuring the continued presence of its residents. The group is led by residents of La Juárez, organizing around the needs of the community, connecting struggles and proposing solutions in a collaborative, creative, proactive, and collective manner. They focus on sharing and reproducing activist methods to combat <em> blanqueamiento por despojo</em> (which translates to whitening by dispossession), a term that stems from Juaricua activism, naming this process as similar but not identical to what the west calls \'gentrification\'. <br> <br> The group were key players in organizing against the Chapultepec Cultural Corridor project in 2015, and they also played a major role in the 2019 incorporation of Article 59, which defines the Human Right to Adequate Housing, and Article 60, which addresses the forced displacement of long-established residents, into the Constitutional Law of Human Rights in Mexico City. The group’s efforts focus on averting the displacement of residents and small businesses in the neighborhood, which also fuels the loss of jobs. They seek to counteract and mitigate the effects of the capitalist real estate market on land and territory in Mexico City, which fuel forced displacement and bring higher rental prices to the neighborhood.',
             
             location: {
                 center: [-99.17199, 19.42819],
@@ -1878,7 +1878,100 @@ var config = {
             title: 'Blanqueamiento por Despojo',
         
             image: './images/pandora_streetscape.jpg',
-            description:'The increase in Airbnb units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists [5]. This is evident in Colonia Juárez. The emergence of Airbn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to Airbnb units also displaced a Comida Corrida restaurant and a corner store at the street level, transforming these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of former eras of Mexico’s elite. Organizers with [ 06600 ] Plataforma Vecinal y Observatorio de la Colonia Juárez call this blanqueamiento por despojo - whitening by dispossession [6]. Whitening, here, refers to not only the literal whitewashing of the buildings after tenants are dispossessed, painted over in bland ‘neutral’ color schemes, but also the ways that housing dispossession is not only an economic but a racialized process. <br> <br> Other instances of mass eviction in Colonia Juárez, such as the expulsion of 20 Indigenous Mazahua families from Turín 46 in October 2021, illustrate how these instances of violent eviction are normalized for lives deemed less valuable within broader processes of racialization and territoriality in Mexico [7].  As low-income Mexican tenants are pushed out to create locales for foreign and national elites, Colonia Juarez becomes effectively reinscribed as an exclusive, whitened space that has a visceral impact on remaining tenants’ day to day lives.',
+            description:'The increase in Airbnb units also impacts the types of businesses that emerge in a given neighborhood, with higher-priced restaurants, cafes, shops and boutiques emerging that cater to the tastes of elite consumers and foreign tourists [5]. This is evident in Colonia Juárez. The emergence of Airbn-Buildings also often entails the displacement of commercial businesses as well. For example, the conversion of Dinamarca 77 to Airbnb units also displaced a <em>Comida Corrida</em> restaurant and a corner store at the street level, transforming these commercial spaces into several upscale boutiques. <br> <br> The whitewashing of these buildings also creates an alternate rendering of the neighborhood, a polished facade reminiscent of former eras of Mexico’s elite. Organizers with [ 06600 ] Plataforma Vecinal y Observatorio de la Colonia Juárez call this <em>blanqueamiento por despojo</em> - whitening by dispossession [6]. Whitening, here, refers to not only the literal whitewashing of the buildings after tenants are dispossessed, painted over in bland ‘neutral’ color schemes, but also the ways that housing dispossession is not only an economic but a racialized process.',
+            
+            location: {
+                center: [-99.17276, 19.42655],
+                zoom: 13.75,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+                {
+                    layer: 'napoles35',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusNapoles35',
+                    opacity: 0,
+                    duration: 3000
+                 }, 
+                 {
+                    layer: 'dinamarca77',
+                    opacity: 0,
+                    duration: 4000
+                 },
+
+                 {
+                    layer: 'minusDinamarca77',
+                    opacity: 0,
+                    duration: 3000
+                 },
+                 {
+                    layer: 'juarezLine',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep24_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_megahosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+                {
+                    layer: 'sep24_hosts',
+                    opacity: 0,
+                    duration: 500
+                }, 
+                {
+                    layer: 'sep19_hosts',
+                    opacity: 0, 
+                    duration: 500
+                },
+               
+                {
+                    layer: 'sep24',
+                    opacity: 0,
+                    duration: 500
+                },
+                {
+                    layer: 'cuauhtemocLine',
+                    opacity: 0,
+                    duration: 500
+                }
+            ],
+            onChapterExit: [
+              
+                
+            ]
+            
+        },
+
+        {
+            // 10.1: Neighbourhood Impact - INDG Tenants
+            id: 'neighbourhood_impact_indg',
+            alignment: 'center',
+            hidden: false,
+            // title: 'Blanqueamiento por Despojo',
+        
+            // image: './images/pandora_streetscape.jpg',
+            description:'The racial dynamics of these processes of displacement become more clear when we pay attention to the ways that Indigenous tenants of Colonia Juárez have experienced especially brutal instances of forced eviction in the neighborhood. Colonia Juárez is home to a multitude of Indigenous residents from diverse nations, especially ñañú, mazahua and triqui peoples. Indigenous residents have noted that they experience racism in the neighborhood and are often treated as if they do not belong in this part of the city [7].  Yet many families are resisting displacement and insisting on their right to remain in La Juárez - [ 06600 ] has documented the evictions of Indigenous families over the past ten years in Colonia Juarez, both past and ongoing: <ul> <li> In 2014, more than 20 Indigenous families were evicted and displaced from Marsella 58, on the corner of Nápoles. </li> <li> In 2018 there was a brutal eviction of more than 25 Indigenous families who were displaced from Roma 18. After 8 years of taking over the streets and living in an encampment, their resistance was victorious and they succeeded at obtaining housing from INVI. </li> <li> In 2019 there was a violent eviction and struggle where more than 28 Indigenous families were displaced from the building Londres 9. </li> <li> In October 2021, more than 22 Indigenous Mazahua families were violently expelled from their homes in Turín 46, but they resisted what they considered to be an illegal eviction and succeeded at remaining in the building. Today they are fighting to claim eminent domain and to build social housing on the site. </li> <li> In 2024, three Indigenous families were displaced from Turin 41. </li> <li> At present, Indigenous families living in Abraham Gonzalez 66 are also seeking to claim eminent domain and build social housing on the site. </li> </ul> <br> These instances of violent mass eviction are more prevalent and normalized for lives deemed less valuable within broader processes of racialization and territoriality in Mexico [7].  As low-income Mexican tenants are pushed out to create locales for foreign and national elites, Colonia Juarez becomes effectively reinscribed as an exclusive, whitened space that has a visceral impact on remaining tenants’ day to day lives.',
             
             location: {
                 center: [-99.17276, 19.42655],
@@ -1971,7 +2064,7 @@ var config = {
             title: 'How has CDMX Responded to Short-Term Rentals?',
             image: './images/digital_nomad_announcement.jpg',
             imageCaption: 'Screenshot taken from the Government of Mexico City’s social media advertising their support for remote workers. <br> <br> Digital Nomads in México City. Remote work generates a transversal impact in society, from human resources and different sectors of our economy. In the #PressConference, of #MexicoCityMayor it was stated that the alliance between @GobCDMX, @airbnb_mx and @UNESCOMexico will help creative tourism thay will include the inhabitants of Mexico City as it will generate new jobs and will jump start the local economy.',
-            description: 'The growth of Airbnb and its impacts on local populations are not natural nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would partner with Mexico City’s government explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” [8]). While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since shifted its opinion of digital nomads - at least in its treatment of their short-term housing rentals. <br> <br> In 2024 the government of Mexico City implemented new regulations regarding Airbnb and other short-term rental platforms, calling for the creation of a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit [9]. In September 2024, the municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods.  <br> <br> In response to these regulations, Airbnb itself has funded local campaigns and reports that portray Airbnb hosts as “mom and pop” businesses whose rental units are benefiting local economies and sustaining their livelihoods. Yet as our research shows, the marked increase in Airbnb units since 2022 is not driven by “mom and pop” owners - it is the result of corporate mega-landlords whose presence has driven up the cost of rent in Colonia Juárez and in other neighborhoods with a large Airbnb presence. ',
+            description: 'The growth of Airbnb and its impacts on local populations are not natural nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would partner with Mexico City’s government explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” [8]). While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since shifted its opinion of digital nomads - at least in its treatment of their short-term housing rentals. <br> <br> In 2024, the government of Mexico City implemented new regulations regarding Airbnb and other short-term rental platforms, calling for the creation of a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit [9]. In September 2024, the municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods.  <br> <br> In response to these regulations, Airbnb itself has funded local campaigns and reports that portray Airbnb hosts as “mom and pop” businesses whose rental units are benefiting local economies and sustaining their livelihoods. Yet as our research shows, the marked increase in Airbnb units since 2022 is not driven by “mom and pop” owners - it is the result of corporate mega-landlords whose presence has driven up the cost of rent in Colonia Juárez and in other neighborhoods with a large Airbnb presence. ',
             
             location: {
                 center: [-99.14960, 19.40666],
