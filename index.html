@@ -23,6 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
 
     <! --Style Settings --> 
     <style>
@@ -79,6 +80,15 @@
             font-family: 'Fascinate Inline', sans-serif;
             padding: 30vh 0vh 30vh 0vh;
         }
+        /* Mobile-specific styles */
+        @media screen and (max-width: 768px) {
+            #header h1 {
+                font-size: 60px; /* Reduce font size for mobile */
+                padding: 10vh 0; /* Adjust padding for mobile */
+                font-family: 'Fascinate Inline', sans-serif; /* Ensure correct font */
+            }
+        }
+        
         #header h2 {
             font-weight: 500;
             font-size: 1.5em;
