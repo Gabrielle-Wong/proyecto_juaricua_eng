@@ -409,9 +409,9 @@ var config = {
             id: 'mega_landlords',
             alignment: 'center',
             hidden: false,
-            title: 'The Growth of Mega-Hosts',
+            title: 'The Growth of Large Corporate Hosts',
             // image: './images/tulum_beach.jpg',
-            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. These ‘multi-unit’ hosts have been the primary drivers of increases in listings in Mexico City. Between April 2019 and September 2024, while the number of listings from single-unit hosts decreased from 9,749 to 8,440, the number of listings from multi-unit hosts ballooned 67% from 10,819 to 18,142. <br> <br> The maps below illustrate the increase in the number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by mega-hosts. ',
+            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. These ‘multi-unit’ hosts have been the primary drivers of increases in listings in Mexico City. Between April 2019 and September 2024, while the number of listings from single-unit hosts decreased from 9,749 to 8,440, the number of listings from multi-unit hosts ballooned 67% from 10,819 to 18,142. <br> <br> The maps below illustrate the increase in the number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by large corporate hosts. ',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -500,7 +500,7 @@ var config = {
             id: 'mega_landlords_ii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host Airbnb listings in September 2019 ",
+            title: "Corporate Host Airbnb listings in September 2019 ",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
             // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
@@ -602,7 +602,7 @@ var config = {
             id: 'mega_landlords_iii',
             alignment: 'left',
             hidden: false,
-            title: "Mega Host Airbnb listings in September 2024",
+            title: "Corporate Host Airbnb listings in September 2024",
             image: './images/number_of_units_owned_legend.png',
             legend: '<em> This map is interactive. You can zoom and pan. </em>',
 
@@ -703,7 +703,7 @@ var config = {
             hidden: false,
             title: 'And the Emergence of Mega-Landlords',
             // image: './images/tulum_beach.jpg',
-            description: 'A few mega-hosts have emerged in this period that have come to manage over 1,500 units in total as of 2024. Two mega-hosts stand out due to the sheer number of units they manage: Mr. W and Virtual Homes [2]. <br> <br> These two, along with several other mega-hosts, often manage entire apartment buildings of Airbnb units. This phenomenon raises the questions: <br> <br> <b> Who lived in these buildings prior to them becoming Airbnbs, and what impact has Airbnb had on the surrounding neighborhood? </b>',
+            description: 'A few corporate hosts have emerged in this period that have come to manage over 1,500 units in total as of 2024. Two corporate hosts stand out due to the sheer number of units they manage: Mr. W and Virtual Homes [2]. <br> <br> These two, along with several other corporate hosts, often manage entire apartment buildings of Airbnb units. This phenomenon raises the questions: <br> <br> <b> Who lived in these buildings prior to them becoming Airbnbs, and what impact has Airbnb had on the surrounding neighborhood? </b>',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -1301,7 +1301,7 @@ var config = {
             title: 'The Case of Dinamarca 77',
             image: './images/dinamarca.jpg',
             imageCaption: 'Dinamarca 77 in 2024.', 
-            description: 'Dinamarca 77 is one building in  Colonia Juárez where the effects of the capitalist real estate market are evident. 12 families are estimated to have been forcefully evicted in April 2018.  This building opened as 11 Airbnb units in October 2023. They are owned by Mr.W, the mega-host that owns the most units in Mexico City. <br> <br>Mr. W was established in 2017 by brothers Luís Carlos Weber Zetina and Carlos Enrique Weber Zetina. Until 2019, their presence in Cuauhtémoc was relatively small (< 50 units), but they have since grown to host over 350 units in Cuauhtémoc. The company does not directly own these units. Rather, they are property managers that serve as an intermediary between property owners and potential guests, handling advertising and guest communication in exchange for a portion of the rental income. A spokesperson for the company estimates Airbnb could earn a landlord 30-40% more income from their unit compared to traditional rentals [3]. This is a clear incentive for landlords to evict families and turn the keys over to managers like Mr. W. ',
+            description: 'Dinamarca 77 is one building in  Colonia Juárez where the effects of the capitalist real estate market are evident. 12 families are estimated to have been forcefully evicted in April 2018.  This building opened as 11 Airbnb units in October 2023. They are owned by Mr.W, the corporate host that owns the most units in Mexico City. <br> <br>Mr. W was established in 2017 by brothers Luís Carlos Weber Zetina and Carlos Enrique Weber Zetina. Until 2019, their presence in Cuauhtémoc was relatively small (< 50 units), but they have since grown to host over 350 units in Cuauhtémoc. The company does not directly own these units. Rather, they are property managers that serve as an intermediary between property owners and potential guests, handling advertising and guest communication in exchange for a portion of the rental income. A spokesperson for the company estimates Airbnb could earn a landlord 30-40% more income from their unit compared to traditional rentals [3]. This is a clear incentive for landlords to evict families and turn the keys over to managers like Mr. W. ',
             
             location: {
                 center: [-99.15789, 19.42543],
@@ -2343,7 +2343,7 @@ var config = {
             title: 'Acknowledgements',
             // image: './images/tulum_beach.jpg',
             // description: 'Text for the chapter',
-            description: "Proyecto Juaricua is a collaboration between Mexican, Canadian and American researchers and organizers. <br> <br> <strong> <em> This research was funded by a Social Science & Humanities Research Council (SSHRC) Insight Development Research Grant and supported by a collaboration with the <a href=\"https://antievictionmap.com\" style=\"color:#ffffff;\" target=\"_blank\">Anti-Eviction Mapping Project</a>.",
+            description: "Proyecto Juaricua is a collaboration between Mexican, Canadian and American researchers and organizers. <br> <br> <strong> <em> This research was supported by a collaboration with the <a href=\"https://antievictionmap.com\" style=\"color:#ffffff;\" target=\"_blank\">Anti-Eviction Mapping Project</a>.",
             location: {
                 center: [-99.12574, 19.39614],
                 zoom: 10.00,
