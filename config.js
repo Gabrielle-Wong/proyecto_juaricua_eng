@@ -500,7 +500,7 @@ var config = {
             id: 'mega_landlords_ii',
             alignment: 'left',
             hidden: false,
-            title: "Corporate Host Airbnb listings in September 2019 ",
+            title: "Airbnb listings by corporate hosts in September 2019 ",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
             // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
@@ -602,7 +602,7 @@ var config = {
             id: 'mega_landlords_iii',
             alignment: 'left',
             hidden: false,
-            title: "Corporate Host Airbnb listings in September 2024",
+            title: "Airbnb listings by corporate hosts in September 2024",
             image: './images/number_of_units_owned_legend.png',
             legend: '<em> This map is interactive. You can zoom and pan. </em>',
 
