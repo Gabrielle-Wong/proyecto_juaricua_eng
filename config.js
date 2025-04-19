@@ -405,13 +405,13 @@ var config = {
         },
 
         {
-            // 4: Mega Landlords
-            id: 'mega_landlords',
+            // 4: Mega Hosts
+            id: 'mega_hosts',
             alignment: 'center',
             hidden: false,
             title: 'The Growth of Mega-Hosts',
             // image: './images/tulum_beach.jpg',
-            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb landlords that manage multiple units - anywhere from dozens up to hundreds of units. These ‘multi-unit’ hosts have been the primary drivers of increases in listings in Mexico City. Between April 2019 and September 2024, while the number of listings from single-unit hosts decreased from 9,749 to 8,440, the number of listings from multi-unit hosts ballooned 67% from 10,819 to 18,142. <br> <br> The maps below illustrate the increase in the number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by large corporate hosts - mega-hosts. ',
+            description: 'This period also marks a shift in the short term rental business model, as we also begin to observe an increase in Airbnb hosts that manage multiple units - anywhere from dozens up to hundreds of units. These ‘multi-unit’ hosts have been the primary drivers of increases in listings in Mexico City. Between April 2019 and September 2024, while the number of listings from single-unit hosts decreased from 9,749 to 8,440, the number of listings from multi-unit hosts ballooned 67% from 10,819 to 18,142. <br> <br> The maps below illustrate the increase in the number of Airbnb units between 2019 and 2023, and in particular how these units are increasingly owned by large corporate hosts - mega-hosts. ',
             
             location: {
                 center: [-99.18165, 19.42285],
@@ -496,14 +496,13 @@ var config = {
         },
 
         {
-            // 4: Mega Landlords
-            id: 'mega_landlords_ii',
+            // 4: The Big Mega Hosts
+            id: 'mega_hosts_ii',
             alignment: 'left',
             hidden: false,
             title: "Mega-Host Airbnb Listings in September 2019 ",
             // description: "Shown based on number of units owned by the unit's host.",
             image: './images/number_of_units_owned_legend.png',
-            // description: 'Since 2022, there has been a noted increase in Airbnb landlords that own multiple units. A few mega-landlords have emerged in Mexico City, that own or manage 100+ units.',
             legend: '<em> This map is interactive. You can zoom and pan. </em>',
             location: {
                 center: [-99.18165, 19.42285],
@@ -598,8 +597,8 @@ var config = {
             
         },
         {
-            // 4: Mega Landlords
-            id: 'mega_landlords_iii',
+            // 4: Mega Hosts Part 3
+            id: 'mega_hosts_panel_three',
             alignment: 'left',
             hidden: false,
             title: "Mega-Host Airbnb Listings in September 2024",
@@ -697,11 +696,11 @@ var config = {
         },
 
         {
-            // 5: 100+ Landlords
-            id: 'hundred_plus_landlords_text',
+            // 5: 100+ Megahosts
+            id: 'hundred_plus_host_text',
             alignment: 'center',
             hidden: false,
-            title: 'And the Emergence of Mega-Landlords',
+            title: 'Who are the Mega-Hosts?',
             // image: './images/tulum_beach.jpg',
             description: 'A few mega-hosts have emerged in this period that have come to manage over 1,500 units in total as of 2024. Two corporate mega-hosts stand out due to the sheer number of units they manage: Mr. W and Virtual Homes [2]. <br> <br> These two, along with several other mega-hosts, often manage entire apartment buildings of Airbnb units. This phenomenon raises the questions: <br> <br> <b> Who lived in these buildings prior to them becoming Airbnbs, and what impact has Airbnb had on the surrounding neighborhood? </b>',
             
@@ -800,11 +799,11 @@ var config = {
         },
 
         {
-            // 5: 100+ Unit Landlords
-            id: 'hundred_plus_landlords_dec2019',
+            // 5: 100+ Unit Hosts
+            id: 'hundred_plus_hosts_sep2019',
             alignment: 'left',
             hidden: false,
-            title: 'Mega-Landlords: September 2019',
+            title: 'Mega-Hosts: September 2019',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive. You can zoom and pan. </em>',
             location: {
@@ -904,11 +903,11 @@ var config = {
 
      
         {
-            // 5: 100+ Unit Landlords
-            id: 'hundred_plus_landlords_dec2023',
+            // 5: 100+ Unit Hosts
+            id: 'hundred_plus_hosts_sep24',
             alignment: 'left',
             hidden: false,
-            title: 'Mega-Landlords: September 2024',
+            title: 'Mega-Hosts: September 2024',
             image: "./images/megalandlord_legend.png",
             legend: '<em> This map is interactive. You can zoom and pan. </em>',
             location: {
@@ -2064,7 +2063,7 @@ var config = {
             title: 'How has CDMX Responded to Short-Term Rentals?',
             image: './images/digital_nomad_announcement.jpg',
             imageCaption: 'Screenshot taken from the Government of Mexico City’s social media advertising their support for remote workers. <br> <br> Digital Nomads in México City. Remote work generates a transversal impact in society, from human resources and different sectors of our economy. In the #PressConference, of #MexicoCityMayor it was stated that the alliance between @GobCDMX, @airbnb_mx and @UNESCOMexico will help creative tourism thay will include the inhabitants of Mexico City as it will generate new jobs and will jump start the local economy.',
-            description: 'The growth of Airbnb and its impacts on local populations are not natural nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would partner with Mexico City’s government explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” [8]). While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since shifted its opinion of digital nomads - at least in its treatment of their short-term housing rentals. <br> <br> In 2024, the government of Mexico City implemented new regulations regarding Airbnb and other short-term rental platforms, calling for the creation of a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit [9]. In September 2024, the municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods.  <br> <br> In response to these regulations, Airbnb itself has funded local campaigns and reports that portray Airbnb hosts as “mom and pop” businesses whose rental units are benefiting local economies and sustaining their livelihoods. Yet as our research shows, the marked increase in Airbnb units since 2022 is not driven by “mom and pop” owners - it is the result of corporate mega-landlords whose presence has driven up the cost of rent in Colonia Juárez and in other neighborhoods with a large Airbnb presence. ',
+            description: 'The growth of Airbnb and its impacts on local populations are not natural nor inevitable. Rather, the whitening of Colonia Juárez and Mexico City’s other neighborhoods has been pursued intentionally. In October 2022, Airbnb announced that it would partner with Mexico City’s government explicitly to  “promote the city as a global hub for remote workers…and the Capital of Creative Tourism” [8]). While the announcement claimed Airbnb would provide economic opportunities to Mexicans (through jobs in the tourism industry), Mexico City has since shifted its opinion of digital nomads - at least in its treatment of their short-term housing rentals. <br> <br> In 2024, the government of Mexico City implemented new regulations regarding Airbnb and other short-term rental platforms, calling for the creation of a list of all the short-term rental hosts, documenting their Tax Identification Number alongside accreditation or ownership of the unit [9]. In September 2024, the municipal government stated that while the host listings had not been completed, hosts now won’t be able to renew their licenses if they have occupation rates over 50% of the year, if they try to list additional properties, or to extend rental periods.  <br> <br> In response to these regulations, Airbnb itself has funded local campaigns and reports that portray Airbnb hosts as “mom and pop” businesses whose rental units are benefiting local economies and sustaining their livelihoods. Yet as our research shows, the marked increase in Airbnb units since 2022 is not driven by “mom and pop” owners - it is the result of corporate mega-hosts whose presence has driven up the cost of rent in Colonia Juárez and in other neighborhoods with a large Airbnb presence. ',
             
             location: {
                 center: [-99.14960, 19.40666],
@@ -2157,7 +2156,7 @@ var config = {
             image: './images/proptech.png',
             imageCaption: 'A professional industry of real estate platforms and technologies have emerged around property markets in Latin America, including many that cater specifically to short-term rental.',
             // image: './images/tulum_beach.jpg',
-            description: 'The mega-landlords that own and/or manage buildings like Dinamarca 77 and Pandora purchase them because they see these buildings not as homes, as the tenants who were evicted did, but as properties from which they can turn a profit. This phenomenon is known as the financialization of housing - the treatment of housing as a financial asset by investors rather than as a human right [10]. <br> <br> Although the financialization of housing is not new, its impacts have been magnified through digital platforms and tools. Smartphones and apps (and the data and analytical capabilities they enable) allow investors to manage large and increasingly complex property portfolios [11]. They enable financialization at greater speeds, broader scales, and with increased profit potential. <br. <br>Short-term rental platforms like Airbnb create opportunities for a new kind of financialization.  They cater to a growing class of mobile, relatively wealthy remote workers (and foreign tourists) who can afford to pay far higher rents than locals. Furthermore, by sidestepping long-term tenant regulations and protections, Airbnb gives hosts much more flexibility and control over their properties [12].  For investors like Mr W and Virtual Homes, the revenue potential is too great to ignore.  <br> <br> This phenomenon is not unique to Mexico City [13].  A professional industry of property managers, landlords, and real estate platforms has emerged in tandem with Airbnb in cities across the world. The boutiques and facades of CDMX are a local expression of a global system that values capital investments and profit over human lives and community cohesion.',
+            description: 'The mega-hosts that own and/or manage buildings like Dinamarca 77 and Pandora purchase them because they see these buildings not as homes, as the tenants who were evicted did, but as properties from which they can turn a profit. This phenomenon is known as the financialization of housing - the treatment of housing as a financial asset by investors rather than as a human right [10]. <br> <br> Although the financialization of housing is not new, its impacts have been magnified through digital platforms and tools. Smartphones and apps (and the data and analytical capabilities they enable) allow investors to manage large and increasingly complex property portfolios [11]. They enable financialization at greater speeds, broader scales, and with increased profit potential. <br. <br>Short-term rental platforms like Airbnb create opportunities for a new kind of financialization.  They cater to a growing class of mobile, relatively wealthy remote workers (and foreign tourists) who can afford to pay far higher rents than locals. Furthermore, by sidestepping long-term tenant regulations and protections, Airbnb gives hosts much more flexibility and control over their properties [12].  For investors like Mr W and Virtual Homes, the revenue potential is too great to ignore.  <br> <br> This phenomenon is not unique to Mexico City [13].  A professional industry of property managers, landlords, and real estate platforms has emerged in tandem with Airbnb in cities across the world. The boutiques and facades of CDMX are a local expression of a global system that values capital investments and profit over human lives and community cohesion.',
             
             location: {
                 center: [-99.14960, 19.40666],
